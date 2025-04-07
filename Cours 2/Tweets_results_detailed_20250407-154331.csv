@@ -1,0 +1,79 @@
+technique,review_id,review_text,true_label,predicted_label,correct,success,retry_count,retry_reasons,extraction_reason,execution_time
+zero-shot,315,"@user Depuis FH, le président mal élu, l'écologie est vécue comme une sanction quotidienne qui taxe ...",0,0.0,True,True,0,,Sentiment: X pattern match,6.168676137924194
+few-shot,315,"@user Depuis FH, le président mal élu, l'écologie est vécue comme une sanction quotidienne qui taxe ...",0,0.0,True,True,0,,Sentiment: X pattern match,7.406955003738403
+few-shot-real,315,"@user Depuis FH, le président mal élu, l'écologie est vécue comme une sanction quotidienne qui taxe ...",0,0.0,True,True,0,,Sentiment: X pattern match,7.996503591537476
+chain-of-thought,315,"@user Depuis FH, le président mal élu, l'écologie est vécue comme une sanction quotidienne qui taxe ...",0,0.0,True,True,0,,Sentiment: X pattern match,5.790122747421265
+role-based,315,"@user Depuis FH, le président mal élu, l'écologie est vécue comme une sanction quotidienne qui taxe ...",0,0.0,True,True,0,,Sentiment: X pattern match,11.982618808746338
+combined,315,"@user Depuis FH, le président mal élu, l'écologie est vécue comme une sanction quotidienne qui taxe ...",0,0.0,True,True,0,,Sentiment: X pattern match,6.885386943817139
+zero-shot,123,Les leaders mondiaux face au changement climatique. Zaman - 23 sept. 2014. ... Casablanca...http,0,1.0,False,True,0,,Sentiment: X pattern match,3.817157030105591
+few-shot,123,Les leaders mondiaux face au changement climatique. Zaman - 23 sept. 2014. ... Casablanca...http,0,1.0,False,True,0,,Sentiment: X pattern match,6.195929527282715
+few-shot-real,123,Les leaders mondiaux face au changement climatique. Zaman - 23 sept. 2014. ... Casablanca...http,0,1.0,False,True,0,,Sentiment: X pattern match,5.995173215866089
+chain-of-thought,123,Les leaders mondiaux face au changement climatique. Zaman - 23 sept. 2014. ... Casablanca...http,0,1.0,False,True,0,,Sentiment: X pattern match,11.697966575622559
+role-based,123,Les leaders mondiaux face au changement climatique. Zaman - 23 sept. 2014. ... Casablanca...http,0,1.0,False,True,0,,Sentiment: X pattern match,8.084192991256714
+combined,123,Les leaders mondiaux face au changement climatique. Zaman - 23 sept. 2014. ... Casablanca...http,0,1.0,False,True,0,,Sentiment: X pattern match,10.31271481513977
+zero-shot,139,"@user Sortir du nucléaire oui, à condition d'avoir des nouvelles énergies plus écologiques, Cécile D...",1,1.0,True,True,0,,Sentiment: X pattern match,28.49247670173645
+few-shot,139,"@user Sortir du nucléaire oui, à condition d'avoir des nouvelles énergies plus écologiques, Cécile D...",1,1.0,True,True,0,,Sentiment: X pattern match,22.95458483695984
+few-shot-real,139,"@user Sortir du nucléaire oui, à condition d'avoir des nouvelles énergies plus écologiques, Cécile D...",1,2.0,False,True,0,,Sentiment: X pattern match,11.02989935874939
+chain-of-thought,139,"@user Sortir du nucléaire oui, à condition d'avoir des nouvelles énergies plus écologiques, Cécile D...",1,2.0,False,True,0,,Sentiment: X pattern match,10.644468545913696
+role-based,139,"@user Sortir du nucléaire oui, à condition d'avoir des nouvelles énergies plus écologiques, Cécile D...",1,1.0,True,True,0,,Sentiment: X pattern match,10.744762659072876
+combined,139,"@user Sortir du nucléaire oui, à condition d'avoir des nouvelles énergies plus écologiques, Cécile D...",1,1.0,True,True,1,No valid label pattern found,Sentiment: X pattern match,62.368799448013306
+zero-shot,57,@user vexé comme un pou d'être traité de ministre écologie le plus lamentable de V° République. Fan ...,0,0.0,True,True,0,,Sentiment: X pattern match,8.643927574157715
+few-shot,57,@user vexé comme un pou d'être traité de ministre écologie le plus lamentable de V° République. Fan ...,0,0.0,True,True,0,,Sentiment: X pattern match,10.429550170898438
+few-shot-real,57,@user vexé comme un pou d'être traité de ministre écologie le plus lamentable de V° République. Fan ...,0,0.0,True,True,0,,Sentiment: X pattern match,10.909988403320312
+chain-of-thought,57,@user vexé comme un pou d'être traité de ministre écologie le plus lamentable de V° République. Fan ...,0,0.0,True,True,0,,Sentiment: X pattern match,5.332953453063965
+role-based,57,@user vexé comme un pou d'être traité de ministre écologie le plus lamentable de V° République. Fan ...,0,0.0,True,True,0,,Sentiment: X pattern match,10.530863761901855
+combined,57,@user vexé comme un pou d'être traité de ministre écologie le plus lamentable de V° République. Fan ...,0,0.0,True,True,0,,Sentiment: X pattern match,9.48962950706482
+zero-shot,294,L'acidification des océans met en danger les espèces marines - France info | @user http,0,0.0,True,True,0,,Sentiment: X pattern match,7.316662549972534
+few-shot,294,L'acidification des océans met en danger les espèces marines - France info | @user http,0,0.0,True,True,0,,Sentiment: X pattern match,7.58389949798584
+few-shot-real,294,L'acidification des océans met en danger les espèces marines - France info | @user http,0,0.0,True,True,0,,Sentiment: X pattern match,9.136310338973999
+chain-of-thought,294,L'acidification des océans met en danger les espèces marines - France info | @user http,0,1.0,False,True,0,,Sentiment: X pattern match,13.020886659622192
+role-based,294,L'acidification des océans met en danger les espèces marines - France info | @user http,0,0.0,True,True,0,,Sentiment: X pattern match,5.028591156005859
+combined,294,L'acidification des océans met en danger les espèces marines - France info | @user http,0,0.0,True,True,0,,Sentiment: X pattern match,8.663803815841675
+zero-shot,13,@user à Montpellier : ils en parlent http … …  @user  #écologie #emploi #naturaliste #étudiant,1,1.0,True,True,0,,Sentiment: X pattern match,5.435178995132446
+few-shot,13,@user à Montpellier : ils en parlent http … …  @user  #écologie #emploi #naturaliste #étudiant,1,1.0,True,True,0,,Sentiment: X pattern match,4.267164707183838
+few-shot-real,13,@user à Montpellier : ils en parlent http … …  @user  #écologie #emploi #naturaliste #étudiant,1,1.0,True,True,0,,Sentiment: X pattern match,9.896915197372437
+chain-of-thought,13,@user à Montpellier : ils en parlent http … …  @user  #écologie #emploi #naturaliste #étudiant,1,1.0,True,True,0,,Sentiment: X pattern match,14.238391637802124
+role-based,13,@user à Montpellier : ils en parlent http … …  @user  #écologie #emploi #naturaliste #étudiant,1,1.0,True,True,0,,Sentiment: X pattern match,6.613670825958252
+combined,13,@user à Montpellier : ils en parlent http … …  @user  #écologie #emploi #naturaliste #étudiant,1,1.0,True,True,0,,Sentiment: X pattern match,13.04189133644104
+zero-shot,311,"Ns on préfère acheter un avion : #Benin : 77,75 millions USD pour électrifier 105 localités par l’én...",2,0.0,False,True,0,,Sentiment: X pattern match,18.244606018066406
+few-shot,311,"Ns on préfère acheter un avion : #Benin : 77,75 millions USD pour électrifier 105 localités par l’én...",2,1.0,False,True,0,,Sentiment: X pattern match,22.099510431289673
+few-shot-real,311,"Ns on préfère acheter un avion : #Benin : 77,75 millions USD pour électrifier 105 localités par l’én...",2,,,False,1,No valid label pattern found,No valid label pattern found,43.57262396812439
+chain-of-thought,311,"Ns on préfère acheter un avion : #Benin : 77,75 millions USD pour électrifier 105 localités par l’én...",2,2.0,True,True,1,No valid label pattern found,Sentiment: X pattern match,56.56333565711975
+role-based,311,"Ns on préfère acheter un avion : #Benin : 77,75 millions USD pour électrifier 105 localités par l’én...",2,2.0,True,True,0,,Sentiment: X pattern match,16.473439693450928
+combined,311,"Ns on préfère acheter un avion : #Benin : 77,75 millions USD pour électrifier 105 localités par l’én...",2,0.0,False,True,0,,Sentiment: X pattern match,46.135414123535156
+zero-shot,52,Les auto-constructeurs d’éoliennes préparent l’après-apocalypse : http http v / @user,1,1.0,True,True,1,No valid label pattern found,Sentiment: X pattern match,54.985199213027954
+few-shot,52,Les auto-constructeurs d’éoliennes préparent l’après-apocalypse : http http v / @user,1,1.0,True,True,0,,Sentiment: X pattern match,6.92287278175354
+few-shot-real,52,Les auto-constructeurs d’éoliennes préparent l’après-apocalypse : http http v / @user,1,0.0,False,True,0,,Sentiment: X pattern match,11.613730430603027
+chain-of-thought,52,Les auto-constructeurs d’éoliennes préparent l’après-apocalypse : http http v / @user,1,0.0,False,True,0,,Sentiment: X pattern match,13.880989789962769
+role-based,52,Les auto-constructeurs d’éoliennes préparent l’après-apocalypse : http http v / @user,1,0.0,False,True,0,,Sentiment: X pattern match,8.775258541107178
+combined,52,Les auto-constructeurs d’éoliennes préparent l’après-apocalypse : http http v / @user,1,0.0,False,True,0,,Sentiment: X pattern match,15.350923538208008
+zero-shot,190,"Nouvelle centrale photovoltaïque à Fukushima, dans la zone prête à ... - bulletins-electroniques htt...",1,2.0,False,True,0,,Sentiment: X pattern match,11.747189044952393
+few-shot,190,"Nouvelle centrale photovoltaïque à Fukushima, dans la zone prête à ... - bulletins-electroniques htt...",1,2.0,False,True,0,,Sentiment: X pattern match,9.631818294525146
+few-shot-real,190,"Nouvelle centrale photovoltaïque à Fukushima, dans la zone prête à ... - bulletins-electroniques htt...",1,1.0,True,True,0,,Sentiment: X pattern match,11.863229990005493
+chain-of-thought,190,"Nouvelle centrale photovoltaïque à Fukushima, dans la zone prête à ... - bulletins-electroniques htt...",1,1.0,True,True,0,,Sentiment: X pattern match,24.942975282669067
+role-based,190,"Nouvelle centrale photovoltaïque à Fukushima, dans la zone prête à ... - bulletins-electroniques htt...",1,1.0,True,True,0,,Sentiment: X pattern match,11.682568788528442
+combined,190,"Nouvelle centrale photovoltaïque à Fukushima, dans la zone prête à ... - bulletins-electroniques htt...",1,1.0,True,True,0,,Sentiment: X pattern match,14.133694887161255
+zero-shot,117,Comprends pas pourquoi elle est ministre de l'écologie...elle non plus il me semble...#BourdinDirect...,0,0.0,True,True,0,,Sentiment: X pattern match,13.174953937530518
+few-shot,117,Comprends pas pourquoi elle est ministre de l'écologie...elle non plus il me semble...#BourdinDirect...,0,0.0,True,True,0,,Sentiment: X pattern match,9.169984340667725
+few-shot-real,117,Comprends pas pourquoi elle est ministre de l'écologie...elle non plus il me semble...#BourdinDirect...,0,0.0,True,True,0,,Sentiment: X pattern match,9.60682463645935
+chain-of-thought,117,Comprends pas pourquoi elle est ministre de l'écologie...elle non plus il me semble...#BourdinDirect...,0,0.0,True,True,0,,Sentiment: X pattern match,16.363561630249023
+role-based,117,Comprends pas pourquoi elle est ministre de l'écologie...elle non plus il me semble...#BourdinDirect...,0,0.0,True,True,0,,Sentiment: X pattern match,5.832031965255737
+combined,117,Comprends pas pourquoi elle est ministre de l'écologie...elle non plus il me semble...#BourdinDirect...,0,0.0,True,True,0,,Sentiment: X pattern match,15.090617656707764
+zero-shot,105,"Gavage, gaspillage et déchéance : la face cachée du consumérisme, par @user http #Noslimites http",0,0.0,True,True,0,,Sentiment: X pattern match,36.53266978263855
+few-shot,105,"Gavage, gaspillage et déchéance : la face cachée du consumérisme, par @user http #Noslimites http",0,0.0,True,True,0,,Sentiment: X pattern match,8.330943822860718
+few-shot-real,105,"Gavage, gaspillage et déchéance : la face cachée du consumérisme, par @user http #Noslimites http",0,0.0,True,True,0,,Sentiment: X pattern match,8.648224353790283
+chain-of-thought,105,"Gavage, gaspillage et déchéance : la face cachée du consumérisme, par @user http #Noslimites http",0,0.0,True,True,0,,Sentiment: X pattern match,8.351714849472046
+role-based,105,"Gavage, gaspillage et déchéance : la face cachée du consumérisme, par @user http #Noslimites http",0,0.0,True,True,0,,Sentiment: X pattern match,10.580381631851196
+combined,105,"Gavage, gaspillage et déchéance : la face cachée du consumérisme, par @user http #Noslimites http",0,0.0,True,True,0,,Sentiment: X pattern match,7.0938146114349365
+zero-shot,264,"@user @user : L’énergie éolienne, la grande escroquerie ! #EELV  http http",0,0.0,True,True,0,,Sentiment: X pattern match,6.01349401473999
+few-shot,264,"@user @user : L’énergie éolienne, la grande escroquerie ! #EELV  http http",0,0.0,True,True,0,,Sentiment: X pattern match,10.912735223770142
+few-shot-real,264,"@user @user : L’énergie éolienne, la grande escroquerie ! #EELV  http http",0,0.0,True,True,0,,Sentiment: X pattern match,19.474868535995483
+chain-of-thought,264,"@user @user : L’énergie éolienne, la grande escroquerie ! #EELV  http http",0,0.0,True,True,0,,Sentiment: X pattern match,7.495605707168579
+role-based,264,"@user @user : L’énergie éolienne, la grande escroquerie ! #EELV  http http",0,0.0,True,True,0,,Sentiment: X pattern match,5.9648308753967285
+combined,264,"@user @user : L’énergie éolienne, la grande escroquerie ! #EELV  http http",0,0.0,True,True,0,,Sentiment: X pattern match,9.548198223114014
+zero-shot,183,#DirectAN : #Thévenoud à la commission du foutage de gueule durable http http,0,0.0,True,True,0,,Sentiment: X pattern match,5.124128818511963
+few-shot,183,#DirectAN : #Thévenoud à la commission du foutage de gueule durable http http,0,0.0,True,True,0,,Sentiment: X pattern match,10.357401847839355
+few-shot-real,183,#DirectAN : #Thévenoud à la commission du foutage de gueule durable http http,0,0.0,True,True,0,,Sentiment: X pattern match,39.67063307762146
+chain-of-thought,183,#DirectAN : #Thévenoud à la commission du foutage de gueule durable http http,0,0.0,True,True,0,,Sentiment: X pattern match,13.91921091079712
+role-based,183,#DirectAN : #Thévenoud à la commission du foutage de gueule durable http http,0,0.0,True,True,0,,Sentiment: X pattern match,15.318763971328735
+combined,183,#DirectAN : #Thévenoud à la commission du foutage de gueule durable http http,0,0.0,True,True,0,,Sentiment: X pattern match,11.061040163040161
