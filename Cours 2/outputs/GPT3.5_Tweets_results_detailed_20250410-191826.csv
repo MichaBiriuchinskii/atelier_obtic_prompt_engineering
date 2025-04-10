@@ -1,0 +1,601 @@
+technique,review_id,review_text,true_label,predicted_label,correct,success,retry_count,retry_reasons,extraction_reason,execution_time
+zero-shot,70,"Rencontres écologiques d'été du 30 août 2014, info : RTBF Vidéo http",1,1,True,True,0,,Direct digit match,0.9221339225769043
+few-shot,70,"Rencontres écologiques d'été du 30 août 2014, info : RTBF Vidéo http",1,1,True,True,0,,Direct digit match,0.7520143985748291
+few-shot-real,70,"Rencontres écologiques d'été du 30 août 2014, info : RTBF Vidéo http",1,1,True,True,0,,Sentiment: X pattern match,4.512834787368774
+chain-of-thought,70,"Rencontres écologiques d'été du 30 août 2014, info : RTBF Vidéo http",1,1,True,True,0,,Sentiment: X pattern match,2.4793620109558105
+role-based,70,"Rencontres écologiques d'été du 30 août 2014, info : RTBF Vidéo http",1,1,True,True,0,,Direct digit match,0.6774682998657227
+combined,70,"Rencontres écologiques d'été du 30 août 2014, info : RTBF Vidéo http",1,1,True,True,0,,Direct digit match,1.011237621307373
+zero-shot,12,#biodiversité Sciences : le manchot empereur victime du réchauffement climatique http,0,0,True,True,0,,Direct digit match,0.834688663482666
+few-shot,12,#biodiversité Sciences : le manchot empereur victime du réchauffement climatique http,0,0,True,True,0,,Direct digit match,1.09074068069458
+few-shot-real,12,#biodiversité Sciences : le manchot empereur victime du réchauffement climatique http,0,0,True,True,0,,Sentiment: X pattern match,1.0150344371795654
+chain-of-thought,12,#biodiversité Sciences : le manchot empereur victime du réchauffement climatique http,0,0,True,True,0,,Sentiment: X pattern match,4.426229238510132
+role-based,12,#biodiversité Sciences : le manchot empereur victime du réchauffement climatique http,0,0,True,True,0,,Sentiment: X pattern match,0.8834357261657715
+combined,12,#biodiversité Sciences : le manchot empereur victime du réchauffement climatique http,0,0,True,True,0,,Sentiment: X pattern match,0.7147395610809326
+zero-shot,147,Écotaxe : Ségolène Royal s’attaque aux sociétés d’autoroute http #ecologie GreenUnivers,0,1,False,True,0,,Direct digit match,0.7788434028625488
+few-shot,147,Écotaxe : Ségolène Royal s’attaque aux sociétés d’autoroute http #ecologie GreenUnivers,0,1,False,True,0,,Sentiment: X pattern match,0.7366597652435303
+few-shot-real,147,Écotaxe : Ségolène Royal s’attaque aux sociétés d’autoroute http #ecologie GreenUnivers,0,0,True,True,0,,Direct digit match,0.7927296161651611
+chain-of-thought,147,Écotaxe : Ségolène Royal s’attaque aux sociétés d’autoroute http #ecologie GreenUnivers,0,0,True,True,0,,Sentiment: X pattern match,8.108637809753418
+role-based,147,Écotaxe : Ségolène Royal s’attaque aux sociétés d’autoroute http #ecologie GreenUnivers,0,1,False,True,0,,Direct digit match,0.9171342849731445
+combined,147,Écotaxe : Ségolène Royal s’attaque aux sociétés d’autoroute http #ecologie GreenUnivers,0,0,True,True,0,,Sentiment: X pattern match,0.9313962459564209
+zero-shot,85,"""@user: Décollage : en France, la production des éoliennes a augmenté de 19% en un an http http",1,2,False,True,0,,Sentiment: X pattern match,1.0454514026641846
+few-shot,85,"""@user: Décollage : en France, la production des éoliennes a augmenté de 19% en un an http http",1,1,True,True,0,,Direct digit match,0.8132872581481934
+few-shot-real,85,"""@user: Décollage : en France, la production des éoliennes a augmenté de 19% en un an http http",1,2,False,True,0,,Sentiment: X pattern match,0.6600079536437988
+chain-of-thought,85,"""@user: Décollage : en France, la production des éoliennes a augmenté de 19% en un an http http",1,1,True,True,0,,Sentiment: X pattern match,2.6772782802581787
+role-based,85,"""@user: Décollage : en France, la production des éoliennes a augmenté de 19% en un an http http",1,2,False,True,0,,Sentiment: X pattern match,0.804314136505127
+combined,85,"""@user: Décollage : en France, la production des éoliennes a augmenté de 19% en un an http http",1,2,False,True,0,,Sentiment: X pattern match,0.9082107543945312
+zero-shot,183,#DirectAN : #Thévenoud à la commission du foutage de gueule durable http http,0,0,True,True,0,,Direct digit match,0.6554508209228516
+few-shot,183,#DirectAN : #Thévenoud à la commission du foutage de gueule durable http http,0,0,True,True,0,,Sentiment: X pattern match,0.7518281936645508
+few-shot-real,183,#DirectAN : #Thévenoud à la commission du foutage de gueule durable http http,0,0,True,True,0,,Direct digit match,0.7040657997131348
+chain-of-thought,183,#DirectAN : #Thévenoud à la commission du foutage de gueule durable http http,0,0,True,True,0,,Sentiment: X pattern match,2.604823112487793
+role-based,183,#DirectAN : #Thévenoud à la commission du foutage de gueule durable http http,0,0,True,True,0,,Direct digit match,0.7834677696228027
+combined,183,#DirectAN : #Thévenoud à la commission du foutage de gueule durable http http,0,0,True,True,0,,Sentiment: X pattern match,1.7073087692260742
+zero-shot,206,L'écologie c'est un peu le Arte de la politique : tout le monde trouve ça génial mais personne ne ve...,2,0,False,True,0,,Direct digit match,0.8294684886932373
+few-shot,206,L'écologie c'est un peu le Arte de la politique : tout le monde trouve ça génial mais personne ne ve...,2,0,False,True,0,,Sentiment: X pattern match,0.7352395057678223
+few-shot-real,206,L'écologie c'est un peu le Arte de la politique : tout le monde trouve ça génial mais personne ne ve...,2,0,False,True,0,,Direct digit match,0.7938308715820312
+chain-of-thought,206,L'écologie c'est un peu le Arte de la politique : tout le monde trouve ça génial mais personne ne ve...,2,0,False,True,0,,Sentiment: X pattern match,2.5111069679260254
+role-based,206,L'écologie c'est un peu le Arte de la politique : tout le monde trouve ça génial mais personne ne ve...,2,0,False,True,0,,Sentiment: X pattern match,1.004875898361206
+combined,206,L'écologie c'est un peu le Arte de la politique : tout le monde trouve ça génial mais personne ne ve...,2,0,False,True,0,,Direct digit match,0.84590744972229
+zero-shot,37,Fatima Jardim : l'Afrique a besoin d'argent pour la transition énergétique - et pas seulement de pan...,1,1,True,True,0,,Direct digit match,1.0908868312835693
+few-shot,37,Fatima Jardim : l'Afrique a besoin d'argent pour la transition énergétique - et pas seulement de pan...,1,1,True,True,0,,Sentiment: X pattern match,0.6733603477478027
+few-shot-real,37,Fatima Jardim : l'Afrique a besoin d'argent pour la transition énergétique - et pas seulement de pan...,1,1,True,True,0,,Sentiment: X pattern match,0.8048610687255859
+chain-of-thought,37,Fatima Jardim : l'Afrique a besoin d'argent pour la transition énergétique - et pas seulement de pan...,1,1,True,True,0,,Sentiment: X pattern match,4.097957134246826
+role-based,37,Fatima Jardim : l'Afrique a besoin d'argent pour la transition énergétique - et pas seulement de pan...,1,1,True,True,0,,Direct digit match,0.6868081092834473
+combined,37,Fatima Jardim : l'Afrique a besoin d'argent pour la transition énergétique - et pas seulement de pan...,1,1,True,True,0,,Direct digit match,0.7204859256744385
+zero-shot,128,Le #Tchad opte pour les énergies renouvelables: http,2,1,False,True,0,,Direct digit match,0.7264115810394287
+few-shot,128,Le #Tchad opte pour les énergies renouvelables: http,2,1,False,True,0,,Direct digit match,1.0801217555999756
+few-shot-real,128,Le #Tchad opte pour les énergies renouvelables: http,2,1,False,True,0,,Direct digit match,1.1433401107788086
+chain-of-thought,128,Le #Tchad opte pour les énergies renouvelables: http,2,2,True,True,0,,Sentiment: X pattern match,5.194986820220947
+role-based,128,Le #Tchad opte pour les énergies renouvelables: http,2,1,False,True,0,,Direct digit match,0.7798655033111572
+combined,128,Le #Tchad opte pour les énergies renouvelables: http,2,2,True,True,0,,Sentiment: X pattern match,1.2091736793518066
+zero-shot,314,#EnergiesRenouvelables : bien mais peut mieux faire http,2,1,False,True,0,,Sentiment: X pattern match,0.6719000339508057
+few-shot,314,#EnergiesRenouvelables : bien mais peut mieux faire http,2,1,False,True,0,,Sentiment: X pattern match,3.270209789276123
+few-shot-real,314,#EnergiesRenouvelables : bien mais peut mieux faire http,2,1,False,True,0,,Sentiment: X pattern match,0.7750229835510254
+chain-of-thought,314,#EnergiesRenouvelables : bien mais peut mieux faire http,2,0,False,True,0,,Sentiment: X pattern match,2.947323799133301
+role-based,314,#EnergiesRenouvelables : bien mais peut mieux faire http,2,1,False,True,0,,Direct digit match,0.6667823791503906
+combined,314,#EnergiesRenouvelables : bien mais peut mieux faire http,2,1,False,True,0,,Sentiment: X pattern match,0.9717879295349121
+zero-shot,295,Fièvre? Casse le thermomètre! “@ladepechedumidi: Toulouse: les écologistes demandent l'encadrement d...,1,0,False,True,0,,Direct digit match,0.9091353416442871
+few-shot,295,Fièvre? Casse le thermomètre! “@ladepechedumidi: Toulouse: les écologistes demandent l'encadrement d...,1,0,False,True,0,,Direct digit match,0.8138055801391602
+few-shot-real,295,Fièvre? Casse le thermomètre! “@ladepechedumidi: Toulouse: les écologistes demandent l'encadrement d...,1,1,True,True,0,,Sentiment: X pattern match,0.9372255802154541
+chain-of-thought,295,Fièvre? Casse le thermomètre! “@ladepechedumidi: Toulouse: les écologistes demandent l'encadrement d...,1,1,True,True,0,,Sentiment: X pattern match,4.663187503814697
+role-based,295,Fièvre? Casse le thermomètre! “@ladepechedumidi: Toulouse: les écologistes demandent l'encadrement d...,1,1,True,True,0,,Sentiment: X pattern match,0.7016830444335938
+combined,295,Fièvre? Casse le thermomètre! “@ladepechedumidi: Toulouse: les écologistes demandent l'encadrement d...,1,1,True,True,0,,Sentiment: X pattern match,0.8296399116516113
+zero-shot,227,"@user: Suspension de l'écotaxe poids lourds: le gouvernement recule. Royal, qui pourfend ""l'écologie...",2,1,False,True,0,,Sentiment: X pattern match,1.2387950420379639
+few-shot,227,"@user: Suspension de l'écotaxe poids lourds: le gouvernement recule. Royal, qui pourfend ""l'écologie...",2,1,False,True,0,,Sentiment: X pattern match,0.7575223445892334
+few-shot-real,227,"@user: Suspension de l'écotaxe poids lourds: le gouvernement recule. Royal, qui pourfend ""l'écologie...",2,0,False,True,0,,Sentiment: X pattern match,1.1667602062225342
+chain-of-thought,227,"@user: Suspension de l'écotaxe poids lourds: le gouvernement recule. Royal, qui pourfend ""l'écologie...",2,0,False,True,0,,Sentiment: X pattern match,4.027517080307007
+role-based,227,"@user: Suspension de l'écotaxe poids lourds: le gouvernement recule. Royal, qui pourfend ""l'écologie...",2,1,False,True,0,,Sentiment: X pattern match,0.7595405578613281
+combined,227,"@user: Suspension de l'écotaxe poids lourds: le gouvernement recule. Royal, qui pourfend ""l'écologie...",2,0,False,True,0,,Sentiment: X pattern match,0.8459620475769043
+zero-shot,118,Arctic ice cap has grown 63% since 2012 http http Réchauffement climatique? #plq @user,1,1,True,True,0,,Direct digit match,0.6754310131072998
+few-shot,118,Arctic ice cap has grown 63% since 2012 http http Réchauffement climatique? #plq @user,1,1,True,True,0,,Sentiment: X pattern match,0.7841892242431641
+few-shot-real,118,Arctic ice cap has grown 63% since 2012 http http Réchauffement climatique? #plq @user,1,1,True,True,0,,Sentiment: X pattern match,0.7214114665985107
+chain-of-thought,118,Arctic ice cap has grown 63% since 2012 http http Réchauffement climatique? #plq @user,1,1,True,True,0,,Sentiment: X pattern match,3.912087917327881
+role-based,118,Arctic ice cap has grown 63% since 2012 http http Réchauffement climatique? #plq @user,1,1,True,True,0,,Direct digit match,0.737666130065918
+combined,118,Arctic ice cap has grown 63% since 2012 http http Réchauffement climatique? #plq @user,1,1,True,True,0,,Sentiment: X pattern match,1.0138092041015625
+zero-shot,82,Évaluation de stratégies d'adaptation de la #ville au #changement #climatique publication du rapport...,1,1,True,True,0,,Direct digit match,0.683476448059082
+few-shot,82,Évaluation de stratégies d'adaptation de la #ville au #changement #climatique publication du rapport...,1,1,True,True,0,,Direct digit match,0.8053760528564453
+few-shot-real,82,Évaluation de stratégies d'adaptation de la #ville au #changement #climatique publication du rapport...,1,1,True,True,0,,Direct digit match,1.8492188453674316
+chain-of-thought,82,Évaluation de stratégies d'adaptation de la #ville au #changement #climatique publication du rapport...,1,1,True,True,0,,Sentiment: X pattern match,3.547746419906616
+role-based,82,Évaluation de stratégies d'adaptation de la #ville au #changement #climatique publication du rapport...,1,1,True,True,0,,Direct digit match,0.6553187370300293
+combined,82,Évaluation de stratégies d'adaptation de la #ville au #changement #climatique publication du rapport...,1,1,True,True,0,,Sentiment: X pattern match,0.7823536396026611
+zero-shot,185,"Je suis consultant pour les éoliennes, notamment en Allemagne (Rostock) et j'assure qu'en France, le...",2,1,False,True,0,,Direct digit match,0.726736307144165
+few-shot,185,"Je suis consultant pour les éoliennes, notamment en Allemagne (Rostock) et j'assure qu'en France, le...",2,1,False,True,0,,Sentiment: X pattern match,1.2621889114379883
+few-shot-real,185,"Je suis consultant pour les éoliennes, notamment en Allemagne (Rostock) et j'assure qu'en France, le...",2,1,False,True,0,,Sentiment: X pattern match,0.7825126647949219
+chain-of-thought,185,"Je suis consultant pour les éoliennes, notamment en Allemagne (Rostock) et j'assure qu'en France, le...",2,1,False,True,0,,Sentiment: X pattern match,2.786916971206665
+role-based,185,"Je suis consultant pour les éoliennes, notamment en Allemagne (Rostock) et j'assure qu'en France, le...",2,1,False,True,0,,Sentiment: X pattern match,3.681804895401001
+combined,185,"Je suis consultant pour les éoliennes, notamment en Allemagne (Rostock) et j'assure qu'en France, le...",2,1,False,True,0,,Sentiment: X pattern match,0.9532239437103271
+zero-shot,139,"@user Sortir du nucléaire oui, à condition d'avoir des nouvelles énergies plus écologiques, Cécile D...",1,1,True,True,0,,Direct digit match,2.1086113452911377
+few-shot,139,"@user Sortir du nucléaire oui, à condition d'avoir des nouvelles énergies plus écologiques, Cécile D...",1,1,True,True,0,,Sentiment: X pattern match,1.0137507915496826
+few-shot-real,139,"@user Sortir du nucléaire oui, à condition d'avoir des nouvelles énergies plus écologiques, Cécile D...",1,1,True,True,0,,Direct digit match,0.8435924053192139
+chain-of-thought,139,"@user Sortir du nucléaire oui, à condition d'avoir des nouvelles énergies plus écologiques, Cécile D...",1,2,False,True,0,,Sentiment: X pattern match,4.04685115814209
+role-based,139,"@user Sortir du nucléaire oui, à condition d'avoir des nouvelles énergies plus écologiques, Cécile D...",1,1,True,True,0,,Direct digit match,0.688715934753418
+combined,139,"@user Sortir du nucléaire oui, à condition d'avoir des nouvelles énergies plus écologiques, Cécile D...",1,1,True,True,0,,Sentiment: X pattern match,0.8828604221343994
+zero-shot,21,"#Ecologie : Désolé @user mais le biocarburant, c'est de la merde. http",0,0,True,True,0,,Sentiment: X pattern match,1.018449306488037
+few-shot,21,"#Ecologie : Désolé @user mais le biocarburant, c'est de la merde. http",0,0,True,True,0,,Sentiment: X pattern match,0.8616955280303955
+few-shot-real,21,"#Ecologie : Désolé @user mais le biocarburant, c'est de la merde. http",0,0,True,True,0,,Sentiment: X pattern match,0.7145578861236572
+chain-of-thought,21,"#Ecologie : Désolé @user mais le biocarburant, c'est de la merde. http",0,0,True,True,0,,Sentiment: X pattern match,3.34777569770813
+role-based,21,"#Ecologie : Désolé @user mais le biocarburant, c'est de la merde. http",0,0,True,True,0,,Sentiment: X pattern match,0.775460958480835
+combined,21,"#Ecologie : Désolé @user mais le biocarburant, c'est de la merde. http",0,0,True,True,0,,Sentiment: X pattern match,0.8909714221954346
+zero-shot,127,l'éolien volant : des éoliennes en altitude http,1,1,True,True,0,,Direct digit match,0.6701045036315918
+few-shot,127,l'éolien volant : des éoliennes en altitude http,1,1,True,True,0,,Sentiment: X pattern match,1.0258169174194336
+few-shot-real,127,l'éolien volant : des éoliennes en altitude http,1,1,True,True,0,,Sentiment: X pattern match,0.8781716823577881
+chain-of-thought,127,l'éolien volant : des éoliennes en altitude http,1,1,True,True,0,,Sentiment: X pattern match,2.790388584136963
+role-based,127,l'éolien volant : des éoliennes en altitude http,1,1,True,True,0,,Direct digit match,0.709043025970459
+combined,127,l'éolien volant : des éoliennes en altitude http,1,1,True,True,0,,Sentiment: X pattern match,0.7074489593505859
+zero-shot,155,On veut la photo absolument!! @user: Réchauffement de la planète : Schwarzenegger sera reçu par Holl...,2,1,False,True,0,,Direct digit match,0.6058063507080078
+few-shot,155,On veut la photo absolument!! @user: Réchauffement de la planète : Schwarzenegger sera reçu par Holl...,2,1,False,True,0,,Sentiment: X pattern match,1.2076115608215332
+few-shot-real,155,On veut la photo absolument!! @user: Réchauffement de la planète : Schwarzenegger sera reçu par Holl...,2,1,False,True,0,,Sentiment: X pattern match,0.7873287200927734
+chain-of-thought,155,On veut la photo absolument!! @user: Réchauffement de la planète : Schwarzenegger sera reçu par Holl...,2,1,False,True,0,,Sentiment: X pattern match,4.664361953735352
+role-based,155,On veut la photo absolument!! @user: Réchauffement de la planète : Schwarzenegger sera reçu par Holl...,2,1,False,True,0,,Direct digit match,0.9339239597320557
+combined,155,On veut la photo absolument!! @user: Réchauffement de la planète : Schwarzenegger sera reçu par Holl...,2,1,False,True,0,,Sentiment: X pattern match,0.766638994216919
+zero-shot,190,"Nouvelle centrale photovoltaïque à Fukushima, dans la zone prête à ... - bulletins-electroniques htt...",1,1,True,True,0,,Direct digit match,0.7940506935119629
+few-shot,190,"Nouvelle centrale photovoltaïque à Fukushima, dans la zone prête à ... - bulletins-electroniques htt...",1,1,True,True,0,,Sentiment: X pattern match,0.9451422691345215
+few-shot-real,190,"Nouvelle centrale photovoltaïque à Fukushima, dans la zone prête à ... - bulletins-electroniques htt...",1,2,False,True,0,,Sentiment: X pattern match,1.1373143196105957
+chain-of-thought,190,"Nouvelle centrale photovoltaïque à Fukushima, dans la zone prête à ... - bulletins-electroniques htt...",1,2,False,True,0,,Sentiment: X pattern match,4.1008734703063965
+role-based,190,"Nouvelle centrale photovoltaïque à Fukushima, dans la zone prête à ... - bulletins-electroniques htt...",1,1,True,True,0,,Direct digit match,0.8129661083221436
+combined,190,"Nouvelle centrale photovoltaïque à Fukushima, dans la zone prête à ... - bulletins-electroniques htt...",1,2,False,True,0,,Sentiment: X pattern match,1.0927324295043945
+zero-shot,222,"#DirectAN #PLTECV Brottes : ""la chaleur est souvent le grand oublié des énergies renouvelables"" 38% ...",0,1,False,True,0,,Direct digit match,1.6593360900878906
+few-shot,222,"#DirectAN #PLTECV Brottes : ""la chaleur est souvent le grand oublié des énergies renouvelables"" 38% ...",0,1,False,True,0,,Direct digit match,0.9152307510375977
+few-shot-real,222,"#DirectAN #PLTECV Brottes : ""la chaleur est souvent le grand oublié des énergies renouvelables"" 38% ...",0,1,False,True,0,,Direct digit match,0.9410610198974609
+chain-of-thought,222,"#DirectAN #PLTECV Brottes : ""la chaleur est souvent le grand oublié des énergies renouvelables"" 38% ...",0,1,False,True,0,,Sentiment: X pattern match,6.592845678329468
+role-based,222,"#DirectAN #PLTECV Brottes : ""la chaleur est souvent le grand oublié des énergies renouvelables"" 38% ...",0,1,False,True,0,,Direct digit match,0.8427250385284424
+combined,222,"#DirectAN #PLTECV Brottes : ""la chaleur est souvent le grand oublié des énergies renouvelables"" 38% ...",0,1,False,True,0,,Sentiment: X pattern match,0.8641393184661865
+zero-shot,246,@user Il faut du tps &amp; de la lucidité pour 1 écologiste convaincu de faire le deuil de l'idéal:a...,0,1,False,True,0,,Direct digit match,0.8188464641571045
+few-shot,246,@user Il faut du tps &amp; de la lucidité pour 1 écologiste convaincu de faire le deuil de l'idéal:a...,0,1,False,True,0,,Sentiment: X pattern match,0.8397226333618164
+few-shot-real,246,@user Il faut du tps &amp; de la lucidité pour 1 écologiste convaincu de faire le deuil de l'idéal:a...,0,1,False,True,0,,Direct digit match,0.6691477298736572
+chain-of-thought,246,@user Il faut du tps &amp; de la lucidité pour 1 écologiste convaincu de faire le deuil de l'idéal:a...,0,0,True,True,0,,Sentiment: X pattern match,7.770500659942627
+role-based,246,@user Il faut du tps &amp; de la lucidité pour 1 écologiste convaincu de faire le deuil de l'idéal:a...,0,1,False,True,0,,Sentiment: X pattern match,1.0125114917755127
+combined,246,@user Il faut du tps &amp; de la lucidité pour 1 écologiste convaincu de faire le deuil de l'idéal:a...,0,1,False,True,0,,Sentiment: X pattern match,0.9421942234039307
+zero-shot,257,"Prix Pinocchio du développement durable 2014 : votez ! En 2014, plus personne ou presque ne conteste...",2,1,False,True,0,,Direct digit match,0.8037798404693604
+few-shot,257,"Prix Pinocchio du développement durable 2014 : votez ! En 2014, plus personne ou presque ne conteste...",2,1,False,True,0,,Direct digit match,0.888991117477417
+few-shot-real,257,"Prix Pinocchio du développement durable 2014 : votez ! En 2014, plus personne ou presque ne conteste...",2,1,False,True,0,,Direct digit match,0.715111494064331
+chain-of-thought,257,"Prix Pinocchio du développement durable 2014 : votez ! En 2014, plus personne ou presque ne conteste...",2,1,False,True,0,,Sentiment: X pattern match,5.140398263931274
+role-based,257,"Prix Pinocchio du développement durable 2014 : votez ! En 2014, plus personne ou presque ne conteste...",2,1,False,True,0,,Direct digit match,0.9370377063751221
+combined,257,"Prix Pinocchio du développement durable 2014 : votez ! En 2014, plus personne ou presque ne conteste...",2,1,False,True,0,,Direct digit match,2.712721109390259
+zero-shot,78,"#Valls démontre combien les politiques écologiques #Duflot devenant #Pinel, manquent totalement de p...",0,0,True,True,0,,Direct digit match,0.9475898742675781
+few-shot,78,"#Valls démontre combien les politiques écologiques #Duflot devenant #Pinel, manquent totalement de p...",0,0,True,True,0,,Sentiment: X pattern match,0.8880836963653564
+few-shot-real,78,"#Valls démontre combien les politiques écologiques #Duflot devenant #Pinel, manquent totalement de p...",0,0,True,True,0,,Sentiment: X pattern match,0.9348142147064209
+chain-of-thought,78,"#Valls démontre combien les politiques écologiques #Duflot devenant #Pinel, manquent totalement de p...",0,0,True,True,0,,Sentiment: X pattern match,7.092007160186768
+role-based,78,"#Valls démontre combien les politiques écologiques #Duflot devenant #Pinel, manquent totalement de p...",0,0,True,True,0,,Direct digit match,0.8089971542358398
+combined,78,"#Valls démontre combien les politiques écologiques #Duflot devenant #Pinel, manquent totalement de p...",0,0,True,True,0,,Sentiment: X pattern match,0.7794671058654785
+zero-shot,84,"#PPD ""L'écotaxe vient d'être supprimée par Ségolène Royal, c'était pourtant un texte défendu par les...",0,0,True,True,0,,Direct digit match,1.1757497787475586
+few-shot,84,"#PPD ""L'écotaxe vient d'être supprimée par Ségolène Royal, c'était pourtant un texte défendu par les...",0,0,True,True,0,,Sentiment: X pattern match,0.9580559730529785
+few-shot-real,84,"#PPD ""L'écotaxe vient d'être supprimée par Ségolène Royal, c'était pourtant un texte défendu par les...",0,0,True,True,0,,Direct digit match,1.016068696975708
+chain-of-thought,84,"#PPD ""L'écotaxe vient d'être supprimée par Ségolène Royal, c'était pourtant un texte défendu par les...",0,0,True,True,0,,Sentiment: X pattern match,3.7589423656463623
+role-based,84,"#PPD ""L'écotaxe vient d'être supprimée par Ségolène Royal, c'était pourtant un texte défendu par les...",0,0,True,True,0,,Sentiment: X pattern match,0.8107731342315674
+combined,84,"#PPD ""L'écotaxe vient d'être supprimée par Ségolène Royal, c'était pourtant un texte défendu par les...",0,0,True,True,0,,Sentiment: X pattern match,2.6427512168884277
+zero-shot,91,"""RT @user: Tout l'écosystème #socialmedia en une image ! http via @user #CM http",1,1,True,True,0,,Direct digit match,1.1003596782684326
+few-shot,91,"""RT @user: Tout l'écosystème #socialmedia en une image ! http via @user #CM http",1,1,True,True,0,,Sentiment: X pattern match,0.8340301513671875
+few-shot-real,91,"""RT @user: Tout l'écosystème #socialmedia en une image ! http via @user #CM http",1,1,True,True,0,,Direct digit match,0.8251056671142578
+chain-of-thought,91,"""RT @user: Tout l'écosystème #socialmedia en une image ! http via @user #CM http",1,1,True,True,0,,Sentiment: X pattern match,7.355678081512451
+role-based,91,"""RT @user: Tout l'écosystème #socialmedia en une image ! http via @user #CM http",1,1,True,True,0,,Direct digit match,0.7838039398193359
+combined,91,"""RT @user: Tout l'écosystème #socialmedia en une image ! http via @user #CM http",1,1,True,True,0,,Direct digit match,0.7854335308074951
+zero-shot,119,Premier fruit de greenwin !!! Un projet qui révolutionne le traitement des déchets http,2,2,True,True,0,,Sentiment: X pattern match,1.6462459564208984
+few-shot,119,Premier fruit de greenwin !!! Un projet qui révolutionne le traitement des déchets http,2,2,True,True,0,,Sentiment: X pattern match,5.108814477920532
+few-shot-real,119,Premier fruit de greenwin !!! Un projet qui révolutionne le traitement des déchets http,2,2,True,True,0,,Sentiment: X pattern match,0.9041602611541748
+chain-of-thought,119,Premier fruit de greenwin !!! Un projet qui révolutionne le traitement des déchets http,2,2,True,True,0,,Sentiment: X pattern match,2.585434675216675
+role-based,119,Premier fruit de greenwin !!! Un projet qui révolutionne le traitement des déchets http,2,2,True,True,0,,Direct digit match,0.8640587329864502
+combined,119,Premier fruit de greenwin !!! Un projet qui révolutionne le traitement des déchets http,2,2,True,True,0,,Sentiment: X pattern match,0.7880616188049316
+zero-shot,66,Un groupe écologiste s'inquiète du sort des parcs nationaux: Un groupe environnemental dénonce l'éta...,0,0,True,True,0,,Direct digit match,0.8307197093963623
+few-shot,66,Un groupe écologiste s'inquiète du sort des parcs nationaux: Un groupe environnemental dénonce l'éta...,0,0,True,True,0,,Sentiment: X pattern match,1.0670390129089355
+few-shot-real,66,Un groupe écologiste s'inquiète du sort des parcs nationaux: Un groupe environnemental dénonce l'éta...,0,0,True,True,0,,Direct digit match,0.9444766044616699
+chain-of-thought,66,Un groupe écologiste s'inquiète du sort des parcs nationaux: Un groupe environnemental dénonce l'éta...,0,0,True,True,0,,Sentiment: X pattern match,2.8571345806121826
+role-based,66,Un groupe écologiste s'inquiète du sort des parcs nationaux: Un groupe environnemental dénonce l'éta...,0,0,True,True,0,,Direct digit match,0.6037325859069824
+combined,66,Un groupe écologiste s'inquiète du sort des parcs nationaux: Un groupe environnemental dénonce l'éta...,0,0,True,True,0,,Sentiment: X pattern match,1.0386075973510742
+zero-shot,270,"Par contre comme à chaque fois que je regarde un film sur des activistes écologiques, je suis actuel...",0,0,True,True,0,,Sentiment: X pattern match,1.0506033897399902
+few-shot,270,"Par contre comme à chaque fois que je regarde un film sur des activistes écologiques, je suis actuel...",0,0,True,True,0,,Sentiment: X pattern match,0.9739224910736084
+few-shot-real,270,"Par contre comme à chaque fois que je regarde un film sur des activistes écologiques, je suis actuel...",0,0,True,True,0,,Sentiment: X pattern match,3.520474910736084
+chain-of-thought,270,"Par contre comme à chaque fois que je regarde un film sur des activistes écologiques, je suis actuel...",0,0,True,True,0,,Sentiment: X pattern match,2.2924797534942627
+role-based,270,"Par contre comme à chaque fois que je regarde un film sur des activistes écologiques, je suis actuel...",0,0,True,True,0,,Direct digit match,0.6801929473876953
+combined,270,"Par contre comme à chaque fois que je regarde un film sur des activistes écologiques, je suis actuel...",0,0,True,True,0,,Sentiment: X pattern match,0.8846898078918457
+zero-shot,225,"@user les dynamos et éoliennes ne stockent pas l'énergie produite, c'est domage",0,0,True,True,0,,Direct digit match,0.7992038726806641
+few-shot,225,"@user les dynamos et éoliennes ne stockent pas l'énergie produite, c'est domage",0,0,True,True,0,,Sentiment: X pattern match,0.7132568359375
+few-shot-real,225,"@user les dynamos et éoliennes ne stockent pas l'énergie produite, c'est domage",0,0,True,True,0,,Sentiment: X pattern match,0.7190916538238525
+chain-of-thought,225,"@user les dynamos et éoliennes ne stockent pas l'énergie produite, c'est domage",0,0,True,True,0,,Sentiment: X pattern match,2.85386061668396
+role-based,225,"@user les dynamos et éoliennes ne stockent pas l'énergie produite, c'est domage",0,0,True,True,0,,Direct digit match,0.7561829090118408
+combined,225,"@user les dynamos et éoliennes ne stockent pas l'énergie produite, c'est domage",0,0,True,True,0,,Sentiment: X pattern match,1.204979658126831
+zero-shot,86,Découvrez des #éoliennes volantes et des cerfs-volants capables de produire de l'#électricité http #...,2,1,False,True,0,,Sentiment: X pattern match,1.0421497821807861
+few-shot,86,Découvrez des #éoliennes volantes et des cerfs-volants capables de produire de l'#électricité http #...,2,1,False,True,0,,Sentiment: X pattern match,1.1149554252624512
+few-shot-real,86,Découvrez des #éoliennes volantes et des cerfs-volants capables de produire de l'#électricité http #...,2,2,True,True,0,,Sentiment: X pattern match,1.402454137802124
+chain-of-thought,86,Découvrez des #éoliennes volantes et des cerfs-volants capables de produire de l'#électricité http #...,2,2,True,True,0,,Sentiment: X pattern match,3.88066029548645
+role-based,86,Découvrez des #éoliennes volantes et des cerfs-volants capables de produire de l'#électricité http #...,2,2,True,True,0,,Sentiment: X pattern match,1.4301917552947998
+combined,86,Découvrez des #éoliennes volantes et des cerfs-volants capables de produire de l'#électricité http #...,2,2,True,True,0,,Sentiment: X pattern match,2.130605936050415
+zero-shot,203,Le cloud est hyper centralisé. Il faut le décentraliser pour un écosystème plus ouvert et foisonnant...,2,1,False,True,0,,Direct digit match,1.1637392044067383
+few-shot,203,Le cloud est hyper centralisé. Il faut le décentraliser pour un écosystème plus ouvert et foisonnant...,2,1,False,True,0,,Sentiment: X pattern match,6.927046537399292
+few-shot-real,203,Le cloud est hyper centralisé. Il faut le décentraliser pour un écosystème plus ouvert et foisonnant...,2,1,False,True,0,,Sentiment: X pattern match,1.4629340171813965
+chain-of-thought,203,Le cloud est hyper centralisé. Il faut le décentraliser pour un écosystème plus ouvert et foisonnant...,2,0,False,True,0,,Sentiment: X pattern match,5.280579328536987
+role-based,203,Le cloud est hyper centralisé. Il faut le décentraliser pour un écosystème plus ouvert et foisonnant...,2,1,False,True,0,,Sentiment: X pattern match,1.866701602935791
+combined,203,Le cloud est hyper centralisé. Il faut le décentraliser pour un écosystème plus ouvert et foisonnant...,2,1,False,True,0,,Sentiment: X pattern match,2.1628549098968506
+zero-shot,317,"Des astuces pour nettoyer des tâches récalcitrantes... Certaines sont écologiques, d'autres moins, m...",2,1,False,True,0,,Direct digit match,2.4182093143463135
+few-shot,317,"Des astuces pour nettoyer des tâches récalcitrantes... Certaines sont écologiques, d'autres moins, m...",2,1,False,True,0,,Direct digit match,1.8897526264190674
+few-shot-real,317,"Des astuces pour nettoyer des tâches récalcitrantes... Certaines sont écologiques, d'autres moins, m...",2,1,False,True,0,,Direct digit match,1.8321301937103271
+chain-of-thought,317,"Des astuces pour nettoyer des tâches récalcitrantes... Certaines sont écologiques, d'autres moins, m...",2,1,False,True,0,,Sentiment: X pattern match,3.89528489112854
+role-based,317,"Des astuces pour nettoyer des tâches récalcitrantes... Certaines sont écologiques, d'autres moins, m...",2,1,False,True,0,,Direct digit match,1.3922622203826904
+combined,317,"Des astuces pour nettoyer des tâches récalcitrantes... Certaines sont écologiques, d'autres moins, m...",2,1,False,True,0,,Sentiment: X pattern match,2.210216760635376
+zero-shot,113,Face à l’escroquerie éolienne : la géothermie | Contrepoints Replay  http,2,0,False,True,0,,Direct digit match,1.9715635776519775
+few-shot,113,Face à l’escroquerie éolienne : la géothermie | Contrepoints Replay  http,2,1,False,True,0,,Sentiment: X pattern match,1.4227921962738037
+few-shot-real,113,Face à l’escroquerie éolienne : la géothermie | Contrepoints Replay  http,2,0,False,True,0,,Sentiment: X pattern match,1.8325719833374023
+chain-of-thought,113,Face à l’escroquerie éolienne : la géothermie | Contrepoints Replay  http,2,0,False,True,0,,Sentiment: X pattern match,5.363948106765747
+role-based,113,Face à l’escroquerie éolienne : la géothermie | Contrepoints Replay  http,2,0,False,True,0,,Direct digit match,1.4861745834350586
+combined,113,Face à l’escroquerie éolienne : la géothermie | Contrepoints Replay  http,2,0,False,True,0,,Sentiment: X pattern match,2.4812746047973633
+zero-shot,215,La géothermie profite aux Chellois  http,2,2,True,True,0,,Sentiment: X pattern match,1.8193058967590332
+few-shot,215,La géothermie profite aux Chellois  http,2,1,False,True,0,,Direct digit match,1.8679134845733643
+few-shot-real,215,La géothermie profite aux Chellois  http,2,2,True,True,0,,Sentiment: X pattern match,2.408367156982422
+chain-of-thought,215,La géothermie profite aux Chellois  http,2,2,True,True,0,,Sentiment: X pattern match,2.5604465007781982
+role-based,215,La géothermie profite aux Chellois  http,2,1,False,True,0,,Direct digit match,1.2518525123596191
+combined,215,La géothermie profite aux Chellois  http,2,2,True,True,0,,Sentiment: X pattern match,1.316298484802246
+zero-shot,235,Entretien de Yannick Rumpala par @user sur les liens entre #imaginaires SF et politiques écologiques...,1,1,True,True,0,,Direct digit match,1.6193416118621826
+few-shot,235,Entretien de Yannick Rumpala par @user sur les liens entre #imaginaires SF et politiques écologiques...,1,1,True,True,0,,Sentiment: X pattern match,1.116361141204834
+few-shot-real,235,Entretien de Yannick Rumpala par @user sur les liens entre #imaginaires SF et politiques écologiques...,1,1,True,True,0,,Direct digit match,1.6427042484283447
+chain-of-thought,235,Entretien de Yannick Rumpala par @user sur les liens entre #imaginaires SF et politiques écologiques...,1,1,True,True,0,,Sentiment: X pattern match,2.5375261306762695
+role-based,235,Entretien de Yannick Rumpala par @user sur les liens entre #imaginaires SF et politiques écologiques...,1,1,True,True,0,,Direct digit match,1.8970260620117188
+combined,235,Entretien de Yannick Rumpala par @user sur les liens entre #imaginaires SF et politiques écologiques...,1,1,True,True,0,,Sentiment: X pattern match,0.7209453582763672
+zero-shot,96,#Biodiversité - necessité d'une approche dynamique et dangers des #OGM #agriculture  http,0,1,False,True,0,,Direct digit match,1.969325304031372
+few-shot,96,#Biodiversité - necessité d'une approche dynamique et dangers des #OGM #agriculture  http,0,1,False,True,0,,Sentiment: X pattern match,1.6208388805389404
+few-shot-real,96,#Biodiversité - necessité d'une approche dynamique et dangers des #OGM #agriculture  http,0,1,False,True,0,,Direct digit match,0.7927708625793457
+chain-of-thought,96,#Biodiversité - necessité d'une approche dynamique et dangers des #OGM #agriculture  http,0,0,True,True,0,,Sentiment: X pattern match,6.130666255950928
+role-based,96,#Biodiversité - necessité d'une approche dynamique et dangers des #OGM #agriculture  http,0,1,False,True,0,,Direct digit match,0.6899933815002441
+combined,96,#Biodiversité - necessité d'une approche dynamique et dangers des #OGM #agriculture  http,0,1,False,True,0,,Sentiment: X pattern match,1.8842387199401855
+zero-shot,220,"Dans les domaines de la santé, de la téléphonie mobile, de l'agriculture ou du développement durable...",1,1,True,True,0,,Direct digit match,1.2652642726898193
+few-shot,220,"Dans les domaines de la santé, de la téléphonie mobile, de l'agriculture ou du développement durable...",1,1,True,True,0,,Direct digit match,0.8129169940948486
+few-shot-real,220,"Dans les domaines de la santé, de la téléphonie mobile, de l'agriculture ou du développement durable...",1,1,True,True,0,,Direct digit match,1.8639707565307617
+chain-of-thought,220,"Dans les domaines de la santé, de la téléphonie mobile, de l'agriculture ou du développement durable...",1,1,True,True,0,,Sentiment: X pattern match,3.101639986038208
+role-based,220,"Dans les domaines de la santé, de la téléphonie mobile, de l'agriculture ou du développement durable...",1,1,True,True,0,,Direct digit match,1.7452716827392578
+combined,220,"Dans les domaines de la santé, de la téléphonie mobile, de l'agriculture ou du développement durable...",1,1,True,True,0,,Direct digit match,2.3715908527374268
+zero-shot,310,#ecologie Après l'accident du pont effondré à Bettembourg: des questions http,1,1,True,True,0,,Sentiment: X pattern match,0.9432005882263184
+few-shot,310,#ecologie Après l'accident du pont effondré à Bettembourg: des questions http,1,1,True,True,0,,Sentiment: X pattern match,1.983698844909668
+few-shot-real,310,#ecologie Après l'accident du pont effondré à Bettembourg: des questions http,1,0,False,True,0,,Direct digit match,0.896981954574585
+chain-of-thought,310,#ecologie Après l'accident du pont effondré à Bettembourg: des questions http,1,0,False,True,0,,Sentiment: X pattern match,3.5670671463012695
+role-based,310,#ecologie Après l'accident du pont effondré à Bettembourg: des questions http,1,0,False,True,0,,Direct digit match,0.7153615951538086
+combined,310,#ecologie Après l'accident du pont effondré à Bettembourg: des questions http,1,1,True,True,0,,Sentiment: X pattern match,1.5667719841003418
+zero-shot,284,"Un ingénieur veut contribuer au développement de l’énergie solaire: Dakar, 3 sept (APS) - L’ingénieu...",2,1,False,True,0,,Direct digit match,2.7593114376068115
+few-shot,284,"Un ingénieur veut contribuer au développement de l’énergie solaire: Dakar, 3 sept (APS) - L’ingénieu...",2,1,False,True,0,,Sentiment: X pattern match,1.0142252445220947
+few-shot-real,284,"Un ingénieur veut contribuer au développement de l’énergie solaire: Dakar, 3 sept (APS) - L’ingénieu...",2,2,True,True,0,,Sentiment: X pattern match,1.8081791400909424
+chain-of-thought,284,"Un ingénieur veut contribuer au développement de l’énergie solaire: Dakar, 3 sept (APS) - L’ingénieu...",2,2,True,True,0,,Sentiment: X pattern match,4.37070631980896
+role-based,284,"Un ingénieur veut contribuer au développement de l’énergie solaire: Dakar, 3 sept (APS) - L’ingénieu...",2,1,False,True,0,,Direct digit match,1.059485673904419
+combined,284,"Un ingénieur veut contribuer au développement de l’énergie solaire: Dakar, 3 sept (APS) - L’ingénieu...",2,1,False,True,0,,Sentiment: X pattern match,2.1595160961151123
+zero-shot,163,#ecologie Teom : précisions sur les aménagements de la part incitative pour les constructions neuves...,1,1,True,True,0,,Direct digit match,4.415597438812256
+few-shot,163,#ecologie Teom : précisions sur les aménagements de la part incitative pour les constructions neuves...,1,1,True,True,0,,Direct digit match,0.9161162376403809
+few-shot-real,163,#ecologie Teom : précisions sur les aménagements de la part incitative pour les constructions neuves...,1,1,True,True,0,,Direct digit match,0.9247608184814453
+chain-of-thought,163,#ecologie Teom : précisions sur les aménagements de la part incitative pour les constructions neuves...,1,1,True,True,0,,Sentiment: X pattern match,5.377151966094971
+role-based,163,#ecologie Teom : précisions sur les aménagements de la part incitative pour les constructions neuves...,1,1,True,True,0,,Direct digit match,1.621474027633667
+combined,163,#ecologie Teom : précisions sur les aménagements de la part incitative pour les constructions neuves...,1,1,True,True,0,,Sentiment: X pattern match,1.7452852725982666
+zero-shot,218,L’Indonésie active son marché de la géothermie http,2,1,False,True,0,,Direct digit match,1.6925818920135498
+few-shot,218,L’Indonésie active son marché de la géothermie http,2,1,False,True,0,,Direct digit match,1.5679988861083984
+few-shot-real,218,L’Indonésie active son marché de la géothermie http,2,1,False,True,0,,Direct digit match,0.8440566062927246
+chain-of-thought,218,L’Indonésie active son marché de la géothermie http,2,1,False,True,0,,Sentiment: X pattern match,6.138306617736816
+role-based,218,L’Indonésie active son marché de la géothermie http,2,1,False,True,0,,Direct digit match,0.8399310111999512
+combined,218,L’Indonésie active son marché de la géothermie http,2,2,True,True,0,,Sentiment: X pattern match,0.994922399520874
+zero-shot,292,Réchauffement climatique. Poulpes et bonites remontent la Manche http http,1,1,True,True,0,,Direct digit match,0.821683406829834
+few-shot,292,Réchauffement climatique. Poulpes et bonites remontent la Manche http http,1,1,True,True,0,,Sentiment: X pattern match,1.9320740699768066
+few-shot-real,292,Réchauffement climatique. Poulpes et bonites remontent la Manche http http,1,1,True,True,0,,Sentiment: X pattern match,0.8116238117218018
+chain-of-thought,292,Réchauffement climatique. Poulpes et bonites remontent la Manche http http,1,1,True,True,0,,Sentiment: X pattern match,5.369859933853149
+role-based,292,Réchauffement climatique. Poulpes et bonites remontent la Manche http http,1,1,True,True,0,,Direct digit match,0.7617204189300537
+combined,292,Réchauffement climatique. Poulpes et bonites remontent la Manche http http,1,1,True,True,0,,Sentiment: X pattern match,0.9859988689422607
+zero-shot,308,Steria conseille et assiste l’ESMA dans la gestion de ses projets IT et ses interactions avec son éc...,2,1,False,True,0,,Direct digit match,1.7318229675292969
+few-shot,308,Steria conseille et assiste l’ESMA dans la gestion de ses projets IT et ses interactions avec son éc...,2,1,False,True,0,,Direct digit match,1.2123138904571533
+few-shot-real,308,Steria conseille et assiste l’ESMA dans la gestion de ses projets IT et ses interactions avec son éc...,2,1,False,True,0,,Direct digit match,1.8069117069244385
+chain-of-thought,308,Steria conseille et assiste l’ESMA dans la gestion de ses projets IT et ses interactions avec son éc...,2,1,False,True,0,,Sentiment: X pattern match,3.751952886581421
+role-based,308,Steria conseille et assiste l’ESMA dans la gestion de ses projets IT et ses interactions avec son éc...,2,1,False,True,0,,Direct digit match,0.9309041500091553
+combined,308,Steria conseille et assiste l’ESMA dans la gestion de ses projets IT et ses interactions avec son éc...,2,1,False,True,0,,Sentiment: X pattern match,0.9262139797210693
+zero-shot,177,"La progression des renouvelables risque de connaître un ralentissement après 2020, selon l'AIE | @us...",0,1,False,True,0,,Direct digit match,1.4653117656707764
+few-shot,177,"La progression des renouvelables risque de connaître un ralentissement après 2020, selon l'AIE | @us...",0,1,False,True,0,,Direct digit match,1.4283478260040283
+few-shot-real,177,"La progression des renouvelables risque de connaître un ralentissement après 2020, selon l'AIE | @us...",0,1,False,True,0,,Direct digit match,1.183427095413208
+chain-of-thought,177,"La progression des renouvelables risque de connaître un ralentissement après 2020, selon l'AIE | @us...",0,0,True,True,0,,Sentiment: X pattern match,3.7097322940826416
+role-based,177,"La progression des renouvelables risque de connaître un ralentissement après 2020, selon l'AIE | @us...",0,0,True,True,0,,Sentiment: X pattern match,0.6281428337097168
+combined,177,"La progression des renouvelables risque de connaître un ralentissement après 2020, selon l'AIE | @us...",0,1,False,True,0,,Sentiment: X pattern match,0.7662279605865479
+zero-shot,156,Un élu Europe Écologie-Les Verts dérape sur les synagogues http #Politique via @user,0,0,True,True,0,,Direct digit match,1.9326322078704834
+few-shot,156,Un élu Europe Écologie-Les Verts dérape sur les synagogues http #Politique via @user,0,0,True,True,0,,Sentiment: X pattern match,1.5919666290283203
+few-shot-real,156,Un élu Europe Écologie-Les Verts dérape sur les synagogues http #Politique via @user,0,0,True,True,0,,Sentiment: X pattern match,1.9305229187011719
+chain-of-thought,156,Un élu Europe Écologie-Les Verts dérape sur les synagogues http #Politique via @user,0,0,True,True,0,,Sentiment: X pattern match,5.790932893753052
+role-based,156,Un élu Europe Écologie-Les Verts dérape sur les synagogues http #Politique via @user,0,0,True,True,0,,Direct digit match,1.9518096446990967
+combined,156,Un élu Europe Écologie-Les Verts dérape sur les synagogues http #Politique via @user,0,0,True,True,0,,Sentiment: X pattern match,1.0124268531799316
+zero-shot,33,Réchauffement climatique : les tempêtes de neige extrêmes seront toujours présentes | @user via @use...,0,1,False,True,0,,Direct digit match,1.7341108322143555
+few-shot,33,Réchauffement climatique : les tempêtes de neige extrêmes seront toujours présentes | @user via @use...,0,1,False,True,0,,Sentiment: X pattern match,0.7107114791870117
+few-shot-real,33,Réchauffement climatique : les tempêtes de neige extrêmes seront toujours présentes | @user via @use...,0,1,False,True,0,,Sentiment: X pattern match,2.031857490539551
+chain-of-thought,33,Réchauffement climatique : les tempêtes de neige extrêmes seront toujours présentes | @user via @use...,0,1,False,True,0,,Sentiment: X pattern match,5.247262239456177
+role-based,33,Réchauffement climatique : les tempêtes de neige extrêmes seront toujours présentes | @user via @use...,0,1,False,True,0,,Direct digit match,1.9841327667236328
+combined,33,Réchauffement climatique : les tempêtes de neige extrêmes seront toujours présentes | @user via @use...,0,1,False,True,0,,Sentiment: X pattern match,1.5644266605377197
+zero-shot,138,Royal est contre l'écologie punitive. Au sein d'un gouvernement qui n'a aucun problème avec l'austér...,0,0,True,True,0,,Direct digit match,1.0765571594238281
+few-shot,138,Royal est contre l'écologie punitive. Au sein d'un gouvernement qui n'a aucun problème avec l'austér...,0,0,True,True,0,,Sentiment: X pattern match,1.426673173904419
+few-shot-real,138,Royal est contre l'écologie punitive. Au sein d'un gouvernement qui n'a aucun problème avec l'austér...,0,0,True,True,0,,Direct digit match,0.8194775581359863
+chain-of-thought,138,Royal est contre l'écologie punitive. Au sein d'un gouvernement qui n'a aucun problème avec l'austér...,0,0,True,True,0,,Sentiment: X pattern match,2.519516706466675
+role-based,138,Royal est contre l'écologie punitive. Au sein d'un gouvernement qui n'a aucun problème avec l'austér...,0,0,True,True,0,,Sentiment: X pattern match,0.6845457553863525
+combined,138,Royal est contre l'écologie punitive. Au sein d'un gouvernement qui n'a aucun problème avec l'austér...,0,0,True,True,0,,Sentiment: X pattern match,2.5365264415740967
+zero-shot,142,Tract « le diable s’habille en TAFTA » | Europe Écologie Les Verts http via @user,1,1,True,True,0,,Direct digit match,0.9774038791656494
+few-shot,142,Tract « le diable s’habille en TAFTA » | Europe Écologie Les Verts http via @user,1,1,True,True,0,,Direct digit match,2.274878740310669
+few-shot-real,142,Tract « le diable s’habille en TAFTA » | Europe Écologie Les Verts http via @user,1,0,False,True,0,,Sentiment: X pattern match,4.196305990219116
+chain-of-thought,142,Tract « le diable s’habille en TAFTA » | Europe Écologie Les Verts http via @user,1,0,False,True,0,,Sentiment: X pattern match,3.3816332817077637
+role-based,142,Tract « le diable s’habille en TAFTA » | Europe Écologie Les Verts http via @user,1,1,True,True,0,,Direct digit match,2.1916019916534424
+combined,142,Tract « le diable s’habille en TAFTA » | Europe Écologie Les Verts http via @user,1,1,True,True,0,,Sentiment: X pattern match,1.5989875793457031
+zero-shot,301,Lola ya bonobo : la nursy de Claudine André  http #ecologie Mediaterre,1,1,True,True,0,,Direct digit match,0.8230471611022949
+few-shot,301,Lola ya bonobo : la nursy de Claudine André  http #ecologie Mediaterre,1,1,True,True,0,,Sentiment: X pattern match,0.7881202697753906
+few-shot-real,301,Lola ya bonobo : la nursy de Claudine André  http #ecologie Mediaterre,1,1,True,True,0,,Sentiment: X pattern match,2.0382955074310303
+chain-of-thought,301,Lola ya bonobo : la nursy de Claudine André  http #ecologie Mediaterre,1,1,True,True,0,,Sentiment: X pattern match,5.048154354095459
+role-based,301,Lola ya bonobo : la nursy de Claudine André  http #ecologie Mediaterre,1,1,True,True,0,,Direct digit match,0.9197390079498291
+combined,301,Lola ya bonobo : la nursy de Claudine André  http #ecologie Mediaterre,1,1,True,True,0,,Sentiment: X pattern match,1.7506649494171143
+zero-shot,274,@user KAPUKI EST UNE VILLE IMMATÉRIELLE FLORALE VÉGÉTALE UNE ANTICIPATION #ECOLOGIE #ART POST INTERN...,1,1,True,True,0,,Sentiment: X pattern match,0.8664772510528564
+few-shot,274,@user KAPUKI EST UNE VILLE IMMATÉRIELLE FLORALE VÉGÉTALE UNE ANTICIPATION #ECOLOGIE #ART POST INTERN...,1,1,True,True,0,,Sentiment: X pattern match,0.8166522979736328
+few-shot-real,274,@user KAPUKI EST UNE VILLE IMMATÉRIELLE FLORALE VÉGÉTALE UNE ANTICIPATION #ECOLOGIE #ART POST INTERN...,1,1,True,True,0,,Sentiment: X pattern match,0.8993644714355469
+chain-of-thought,274,@user KAPUKI EST UNE VILLE IMMATÉRIELLE FLORALE VÉGÉTALE UNE ANTICIPATION #ECOLOGIE #ART POST INTERN...,1,2,False,True,0,,Sentiment: X pattern match,2.7896811962127686
+role-based,274,@user KAPUKI EST UNE VILLE IMMATÉRIELLE FLORALE VÉGÉTALE UNE ANTICIPATION #ECOLOGIE #ART POST INTERN...,1,2,False,True,0,,Sentiment: X pattern match,0.7666289806365967
+combined,274,@user KAPUKI EST UNE VILLE IMMATÉRIELLE FLORALE VÉGÉTALE UNE ANTICIPATION #ECOLOGIE #ART POST INTERN...,1,2,False,True,0,,Sentiment: X pattern match,2.3577420711517334
+zero-shot,323,@user: Pour tout savoir sur l’écosystème du Venture Capital en France http  #frenchtouc... http,2,1,False,True,0,,Direct digit match,2.3837027549743652
+few-shot,323,@user: Pour tout savoir sur l’écosystème du Venture Capital en France http  #frenchtouc... http,2,1,False,True,0,,Sentiment: X pattern match,0.9193992614746094
+few-shot-real,323,@user: Pour tout savoir sur l’écosystème du Venture Capital en France http  #frenchtouc... http,2,1,False,True,0,,Direct digit match,0.7781949043273926
+chain-of-thought,323,@user: Pour tout savoir sur l’écosystème du Venture Capital en France http  #frenchtouc... http,2,1,False,True,0,,Sentiment: X pattern match,2.6574604511260986
+role-based,323,@user: Pour tout savoir sur l’écosystème du Venture Capital en France http  #frenchtouc... http,2,1,False,True,0,,Direct digit match,0.6578717231750488
+combined,323,@user: Pour tout savoir sur l’écosystème du Venture Capital en France http  #frenchtouc... http,2,1,False,True,0,,Direct digit match,1.6272368431091309
+zero-shot,159,Ségolène Royal Ministre de l'écologie: Annuler l’autorisation de la chasse aux Loups http via @user,0,1,False,True,0,,Direct digit match,0.782886266708374
+few-shot,159,Ségolène Royal Ministre de l'écologie: Annuler l’autorisation de la chasse aux Loups http via @user,0,1,False,True,0,,Sentiment: X pattern match,0.9567558765411377
+few-shot-real,159,Ségolène Royal Ministre de l'écologie: Annuler l’autorisation de la chasse aux Loups http via @user,0,1,False,True,0,,Direct digit match,0.9600944519042969
+chain-of-thought,159,Ségolène Royal Ministre de l'écologie: Annuler l’autorisation de la chasse aux Loups http via @user,0,0,True,True,0,,Sentiment: X pattern match,5.163338661193848
+role-based,159,Ségolène Royal Ministre de l'écologie: Annuler l’autorisation de la chasse aux Loups http via @user,0,1,False,True,0,,Direct digit match,1.588277816772461
+combined,159,Ségolène Royal Ministre de l'écologie: Annuler l’autorisation de la chasse aux Loups http via @user,0,1,False,True,0,,Sentiment: X pattern match,2.2835166454315186
+zero-shot,117,Comprends pas pourquoi elle est ministre de l'écologie...elle non plus il me semble...#BourdinDirect...,0,0,True,True,0,,Direct digit match,1.7220888137817383
+few-shot,117,Comprends pas pourquoi elle est ministre de l'écologie...elle non plus il me semble...#BourdinDirect...,0,0,True,True,0,,Sentiment: X pattern match,0.7819714546203613
+few-shot-real,117,Comprends pas pourquoi elle est ministre de l'écologie...elle non plus il me semble...#BourdinDirect...,0,0,True,True,0,,Sentiment: X pattern match,0.876274585723877
+chain-of-thought,117,Comprends pas pourquoi elle est ministre de l'écologie...elle non plus il me semble...#BourdinDirect...,0,0,True,True,0,,Sentiment: X pattern match,3.3913414478302
+role-based,117,Comprends pas pourquoi elle est ministre de l'écologie...elle non plus il me semble...#BourdinDirect...,0,0,True,True,0,,Sentiment: X pattern match,2.2679245471954346
+combined,117,Comprends pas pourquoi elle est ministre de l'écologie...elle non plus il me semble...#BourdinDirect...,0,0,True,True,0,,Sentiment: X pattern match,1.0923311710357666
+zero-shot,88,@user @user écologie a 2 balles. Ils voient même pas que la disparition de vaisselles jetable c'est ...,1,0,False,True,0,,Direct digit match,1.3037073612213135
+few-shot,88,@user @user écologie a 2 balles. Ils voient même pas que la disparition de vaisselles jetable c'est ...,1,0,False,True,0,,Sentiment: X pattern match,0.6965141296386719
+few-shot-real,88,@user @user écologie a 2 balles. Ils voient même pas que la disparition de vaisselles jetable c'est ...,1,0,False,True,0,,Sentiment: X pattern match,2.7745108604431152
+chain-of-thought,88,@user @user écologie a 2 balles. Ils voient même pas que la disparition de vaisselles jetable c'est ...,1,0,False,True,0,,Sentiment: X pattern match,2.4547102451324463
+role-based,88,@user @user écologie a 2 balles. Ils voient même pas que la disparition de vaisselles jetable c'est ...,1,0,False,True,0,,Sentiment: X pattern match,0.9407835006713867
+combined,88,@user @user écologie a 2 balles. Ils voient même pas que la disparition de vaisselles jetable c'est ...,1,0,False,True,0,,Sentiment: X pattern match,1.5831806659698486
+zero-shot,152,C’est une première : des scientifiques élaborent une cellule solaire qui stocke sa propre... | @user...,2,1,False,True,0,,Sentiment: X pattern match,0.8477292060852051
+few-shot,152,C’est une première : des scientifiques élaborent une cellule solaire qui stocke sa propre... | @user...,2,1,False,True,0,,Sentiment: X pattern match,1.764131784439087
+few-shot-real,152,C’est une première : des scientifiques élaborent une cellule solaire qui stocke sa propre... | @user...,2,1,False,True,0,,Direct digit match,0.6875307559967041
+chain-of-thought,152,C’est une première : des scientifiques élaborent une cellule solaire qui stocke sa propre... | @user...,2,2,True,True,0,,Sentiment: X pattern match,2.7472035884857178
+role-based,152,C’est une première : des scientifiques élaborent une cellule solaire qui stocke sa propre... | @user...,2,1,False,True,0,,Direct digit match,1.7883918285369873
+combined,152,C’est une première : des scientifiques élaborent une cellule solaire qui stocke sa propre... | @user...,2,2,True,True,0,,Sentiment: X pattern match,1.3206260204315186
+zero-shot,6,Eoliennes et saccage des paysages de vignes Wine Tourism In France L'importance stratégique de l'oen...,0,0,True,True,0,,Direct digit match,3.8359951972961426
+few-shot,6,Eoliennes et saccage des paysages de vignes Wine Tourism In France L'importance stratégique de l'oen...,0,0,True,True,0,,Sentiment: X pattern match,0.7587788105010986
+few-shot-real,6,Eoliennes et saccage des paysages de vignes Wine Tourism In France L'importance stratégique de l'oen...,0,0,True,True,0,,Direct digit match,1.1917040348052979
+chain-of-thought,6,Eoliennes et saccage des paysages de vignes Wine Tourism In France L'importance stratégique de l'oen...,0,0,True,True,0,,Sentiment: X pattern match,5.388982534408569
+role-based,6,Eoliennes et saccage des paysages de vignes Wine Tourism In France L'importance stratégique de l'oen...,0,0,True,True,0,,Direct digit match,1.3756835460662842
+combined,6,Eoliennes et saccage des paysages de vignes Wine Tourism In France L'importance stratégique de l'oen...,0,0,True,True,0,,Direct digit match,1.3010313510894775
+zero-shot,173,Réformes du secteur énergie au MEX augmenteront opportunités de développer  approvisionnements d’éne...,2,2,True,True,0,,Sentiment: X pattern match,0.733797550201416
+few-shot,173,Réformes du secteur énergie au MEX augmenteront opportunités de développer  approvisionnements d’éne...,2,2,True,True,0,,Sentiment: X pattern match,0.92215895652771
+few-shot-real,173,Réformes du secteur énergie au MEX augmenteront opportunités de développer  approvisionnements d’éne...,2,2,True,True,0,,Sentiment: X pattern match,0.8078207969665527
+chain-of-thought,173,Réformes du secteur énergie au MEX augmenteront opportunités de développer  approvisionnements d’éne...,2,2,True,True,0,,Sentiment: X pattern match,3.416649103164673
+role-based,173,Réformes du secteur énergie au MEX augmenteront opportunités de développer  approvisionnements d’éne...,2,2,True,True,0,,Sentiment: X pattern match,1.4166109561920166
+combined,173,Réformes du secteur énergie au MEX augmenteront opportunités de développer  approvisionnements d’éne...,2,2,True,True,0,,Sentiment: X pattern match,1.5280265808105469
+zero-shot,104,"69/@user:initiatives novatrices qui rendent possibles le partage de la prospérité,le développement d...",2,2,True,True,0,,Sentiment: X pattern match,0.8899435997009277
+few-shot,104,"69/@user:initiatives novatrices qui rendent possibles le partage de la prospérité,le développement d...",2,2,True,True,0,,Sentiment: X pattern match,1.3804285526275635
+few-shot-real,104,"69/@user:initiatives novatrices qui rendent possibles le partage de la prospérité,le développement d...",2,2,True,True,0,,Direct digit match,1.185152530670166
+chain-of-thought,104,"69/@user:initiatives novatrices qui rendent possibles le partage de la prospérité,le développement d...",2,2,True,True,0,,Sentiment: X pattern match,4.174519777297974
+role-based,104,"69/@user:initiatives novatrices qui rendent possibles le partage de la prospérité,le développement d...",2,2,True,True,0,,Direct digit match,0.8164887428283691
+combined,104,"69/@user:initiatives novatrices qui rendent possibles le partage de la prospérité,le développement d...",2,2,True,True,0,,Sentiment: X pattern match,2.7614805698394775
+zero-shot,299,Mon TRÈS CHER LOUP 400 loups qui coûtent 12 millions d'€ d'indemnité = 30000€ par loup ! Merci les é...,2,0,False,True,0,,Direct digit match,0.7445344924926758
+few-shot,299,Mon TRÈS CHER LOUP 400 loups qui coûtent 12 millions d'€ d'indemnité = 30000€ par loup ! Merci les é...,2,0,False,True,0,,Sentiment: X pattern match,1.0526785850524902
+few-shot-real,299,Mon TRÈS CHER LOUP 400 loups qui coûtent 12 millions d'€ d'indemnité = 30000€ par loup ! Merci les é...,2,0,False,True,0,,Direct digit match,1.0283665657043457
+chain-of-thought,299,Mon TRÈS CHER LOUP 400 loups qui coûtent 12 millions d'€ d'indemnité = 30000€ par loup ! Merci les é...,2,0,False,True,0,,Sentiment: X pattern match,4.51532244682312
+role-based,299,Mon TRÈS CHER LOUP 400 loups qui coûtent 12 millions d'€ d'indemnité = 30000€ par loup ! Merci les é...,2,0,False,True,0,,Sentiment: X pattern match,0.9441416263580322
+combined,299,Mon TRÈS CHER LOUP 400 loups qui coûtent 12 millions d'€ d'indemnité = 30000€ par loup ! Merci les é...,2,0,False,True,0,,Direct digit match,1.860306739807129
+zero-shot,39,"Après l'immobilisme économique, maintenant on recule même sur les réformes écologiques... bientôt le...",0,0,True,True,0,,Direct digit match,1.7022299766540527
+few-shot,39,"Après l'immobilisme économique, maintenant on recule même sur les réformes écologiques... bientôt le...",0,0,True,True,0,,Sentiment: X pattern match,0.848186731338501
+few-shot-real,39,"Après l'immobilisme économique, maintenant on recule même sur les réformes écologiques... bientôt le...",0,0,True,True,0,,Direct digit match,0.7936928272247314
+chain-of-thought,39,"Après l'immobilisme économique, maintenant on recule même sur les réformes écologiques... bientôt le...",0,0,True,True,0,,Sentiment: X pattern match,3.349604845046997
+role-based,39,"Après l'immobilisme économique, maintenant on recule même sur les réformes écologiques... bientôt le...",0,0,True,True,0,,Sentiment: X pattern match,0.7538697719573975
+combined,39,"Après l'immobilisme économique, maintenant on recule même sur les réformes écologiques... bientôt le...",0,0,True,True,0,,Sentiment: X pattern match,0.6855564117431641
+zero-shot,5,#LoiRoyal oui à la recherche pour des énergies renouvelables et/ou durables! @user @user,2,2,True,True,0,,Sentiment: X pattern match,1.45914888381958
+few-shot,5,#LoiRoyal oui à la recherche pour des énergies renouvelables et/ou durables! @user @user,2,2,True,True,0,,Sentiment: X pattern match,0.6459858417510986
+few-shot-real,5,#LoiRoyal oui à la recherche pour des énergies renouvelables et/ou durables! @user @user,2,2,True,True,0,,Sentiment: X pattern match,0.959395170211792
+chain-of-thought,5,#LoiRoyal oui à la recherche pour des énergies renouvelables et/ou durables! @user @user,2,2,True,True,0,,Sentiment: X pattern match,4.914356231689453
+role-based,5,#LoiRoyal oui à la recherche pour des énergies renouvelables et/ou durables! @user @user,2,2,True,True,0,,Sentiment: X pattern match,0.8271398544311523
+combined,5,#LoiRoyal oui à la recherche pour des énergies renouvelables et/ou durables! @user @user,2,2,True,True,0,,Sentiment: X pattern match,0.8567602634429932
+zero-shot,75,La Presse+: Cacouna: TransCanada veut bloquer le recours des écologistes   http,0,0,True,True,0,,Direct digit match,0.763380765914917
+few-shot,75,La Presse+: Cacouna: TransCanada veut bloquer le recours des écologistes   http,0,1,False,True,0,,Sentiment: X pattern match,0.7139005661010742
+few-shot-real,75,La Presse+: Cacouna: TransCanada veut bloquer le recours des écologistes   http,0,0,True,True,0,,Direct digit match,1.2468297481536865
+chain-of-thought,75,La Presse+: Cacouna: TransCanada veut bloquer le recours des écologistes   http,0,0,True,True,0,,Sentiment: X pattern match,5.152385234832764
+role-based,75,La Presse+: Cacouna: TransCanada veut bloquer le recours des écologistes   http,0,0,True,True,0,,Direct digit match,0.8609902858734131
+combined,75,La Presse+: Cacouna: TransCanada veut bloquer le recours des écologistes   http,0,0,True,True,0,,Sentiment: X pattern match,2.3781604766845703
+zero-shot,76,"Sur France 2, les éoliennes en question...",1,1,True,True,0,,Direct digit match,0.77632737159729
+few-shot,76,"Sur France 2, les éoliennes en question...",1,1,True,True,0,,Direct digit match,0.9855148792266846
+few-shot-real,76,"Sur France 2, les éoliennes en question...",1,1,True,True,0,,Direct digit match,0.909693717956543
+chain-of-thought,76,"Sur France 2, les éoliennes en question...",1,1,True,True,0,,Sentiment: X pattern match,2.4548187255859375
+role-based,76,"Sur France 2, les éoliennes en question...",1,1,True,True,0,,Direct digit match,0.7099277973175049
+combined,76,"Sur France 2, les éoliennes en question...",1,1,True,True,0,,Direct digit match,1.1912055015563965
+zero-shot,229,"@user @user je propose qu'à chaque fois qu'un écologiste passe sous le portail, il soit taxé pour mo...",1,0,False,True,0,,Direct digit match,0.8931517601013184
+few-shot,229,"@user @user je propose qu'à chaque fois qu'un écologiste passe sous le portail, il soit taxé pour mo...",1,0,False,True,0,,Sentiment: X pattern match,1.9982662200927734
+few-shot-real,229,"@user @user je propose qu'à chaque fois qu'un écologiste passe sous le portail, il soit taxé pour mo...",1,0,False,True,0,,Sentiment: X pattern match,0.875657320022583
+chain-of-thought,229,"@user @user je propose qu'à chaque fois qu'un écologiste passe sous le portail, il soit taxé pour mo...",1,0,False,True,0,,Sentiment: X pattern match,5.613879680633545
+role-based,229,"@user @user je propose qu'à chaque fois qu'un écologiste passe sous le portail, il soit taxé pour mo...",1,0,False,True,0,,Sentiment: X pattern match,0.7870492935180664
+combined,229,"@user @user je propose qu'à chaque fois qu'un écologiste passe sous le portail, il soit taxé pour mo...",1,0,False,True,0,,Sentiment: X pattern match,0.7638721466064453
+zero-shot,141,Sujet déprimant car l action collective est hors de portée. Pourquoi la «neige noire» du Groenland d...,0,0,True,True,0,,Direct digit match,0.7927439212799072
+few-shot,141,Sujet déprimant car l action collective est hors de portée. Pourquoi la «neige noire» du Groenland d...,0,0,True,True,0,,Sentiment: X pattern match,0.868959903717041
+few-shot-real,141,Sujet déprimant car l action collective est hors de portée. Pourquoi la «neige noire» du Groenland d...,0,0,True,True,0,,Direct digit match,0.8281960487365723
+chain-of-thought,141,Sujet déprimant car l action collective est hors de portée. Pourquoi la «neige noire» du Groenland d...,0,0,True,True,0,,Sentiment: X pattern match,3.652137517929077
+role-based,141,Sujet déprimant car l action collective est hors de portée. Pourquoi la «neige noire» du Groenland d...,0,0,True,True,0,,Direct digit match,1.5700013637542725
+combined,141,Sujet déprimant car l action collective est hors de portée. Pourquoi la «neige noire» du Groenland d...,0,0,True,True,0,,Sentiment: X pattern match,1.2550528049468994
+zero-shot,289,J-1 avant les journées de l'industrie électrique ! Nous vous attendons nombreux demain à la #central...,1,2,False,True,0,,Sentiment: X pattern match,3.6487700939178467
+few-shot,289,J-1 avant les journées de l'industrie électrique ! Nous vous attendons nombreux demain à la #central...,1,2,False,True,0,,Sentiment: X pattern match,1.0778493881225586
+few-shot-real,289,J-1 avant les journées de l'industrie électrique ! Nous vous attendons nombreux demain à la #central...,1,2,False,True,0,,Sentiment: X pattern match,0.8198659420013428
+chain-of-thought,289,J-1 avant les journées de l'industrie électrique ! Nous vous attendons nombreux demain à la #central...,1,2,False,True,0,,Sentiment: X pattern match,2.4741909503936768
+role-based,289,J-1 avant les journées de l'industrie électrique ! Nous vous attendons nombreux demain à la #central...,1,2,False,True,0,,Direct digit match,0.9178624153137207
+combined,289,J-1 avant les journées de l'industrie électrique ! Nous vous attendons nombreux demain à la #central...,1,2,False,True,0,,Sentiment: X pattern match,0.9534306526184082
+zero-shot,16,UP Magazine - #Biotech Tour #Boston : documentaire sur l'écosystème des #biotechnologies de Boston h...,1,1,True,True,0,,Direct digit match,1.3671841621398926
+few-shot,16,UP Magazine - #Biotech Tour #Boston : documentaire sur l'écosystème des #biotechnologies de Boston h...,1,1,True,True,0,,Sentiment: X pattern match,1.1869876384735107
+few-shot-real,16,UP Magazine - #Biotech Tour #Boston : documentaire sur l'écosystème des #biotechnologies de Boston h...,1,1,True,True,0,,Direct digit match,0.869879961013794
+chain-of-thought,16,UP Magazine - #Biotech Tour #Boston : documentaire sur l'écosystème des #biotechnologies de Boston h...,1,1,True,True,0,,Sentiment: X pattern match,5.812520265579224
+role-based,16,UP Magazine - #Biotech Tour #Boston : documentaire sur l'écosystème des #biotechnologies de Boston h...,1,1,True,True,0,,Direct digit match,0.7317991256713867
+combined,16,UP Magazine - #Biotech Tour #Boston : documentaire sur l'écosystème des #biotechnologies de Boston h...,1,1,True,True,0,,Sentiment: X pattern match,1.2565844058990479
+zero-shot,180,"Actuellement, la neige est noire au Groenland. Et c’est inquiétant  http via @user",0,0,True,True,0,,Direct digit match,0.9415788650512695
+few-shot,180,"Actuellement, la neige est noire au Groenland. Et c’est inquiétant  http via @user",0,0,True,True,0,,Sentiment: X pattern match,1.9364464282989502
+few-shot-real,180,"Actuellement, la neige est noire au Groenland. Et c’est inquiétant  http via @user",0,0,True,True,0,,Direct digit match,0.9624450206756592
+chain-of-thought,180,"Actuellement, la neige est noire au Groenland. Et c’est inquiétant  http via @user",0,0,True,True,0,,Sentiment: X pattern match,4.410862922668457
+role-based,180,"Actuellement, la neige est noire au Groenland. Et c’est inquiétant  http via @user",0,0,True,True,0,,Direct digit match,6.193054914474487
+combined,180,"Actuellement, la neige est noire au Groenland. Et c’est inquiétant  http via @user",0,0,True,True,0,,Sentiment: X pattern match,0.7660236358642578
+zero-shot,188,L'Union internationale pour la conservation de la nature (UICN) accueille le Gouvernement de… http,2,1,False,True,0,,Direct digit match,0.7346742153167725
+few-shot,188,L'Union internationale pour la conservation de la nature (UICN) accueille le Gouvernement de… http,2,1,False,True,0,,Direct digit match,1.1310794353485107
+few-shot-real,188,L'Union internationale pour la conservation de la nature (UICN) accueille le Gouvernement de… http,2,1,False,True,0,,Direct digit match,1.9315102100372314
+chain-of-thought,188,L'Union internationale pour la conservation de la nature (UICN) accueille le Gouvernement de… http,2,1,False,True,0,,Sentiment: X pattern match,3.0170340538024902
+role-based,188,L'Union internationale pour la conservation de la nature (UICN) accueille le Gouvernement de… http,2,1,False,True,0,,Direct digit match,0.5840017795562744
+combined,188,L'Union internationale pour la conservation de la nature (UICN) accueille le Gouvernement de… http,2,1,False,True,0,,Sentiment: X pattern match,1.0377655029296875
+zero-shot,46,Ces capsules futuristes suspendues à un rail et mues par l’énergie solaire sont-elles la solution au...,1,1,True,True,0,,Direct digit match,0.9853274822235107
+few-shot,46,Ces capsules futuristes suspendues à un rail et mues par l’énergie solaire sont-elles la solution au...,1,1,True,True,0,,Sentiment: X pattern match,1.0143029689788818
+few-shot-real,46,Ces capsules futuristes suspendues à un rail et mues par l’énergie solaire sont-elles la solution au...,1,1,True,True,0,,Direct digit match,0.7806136608123779
+chain-of-thought,46,Ces capsules futuristes suspendues à un rail et mues par l’énergie solaire sont-elles la solution au...,1,1,True,True,0,,Sentiment: X pattern match,2.5191493034362793
+role-based,46,Ces capsules futuristes suspendues à un rail et mues par l’énergie solaire sont-elles la solution au...,1,1,True,True,0,,Direct digit match,2.3834898471832275
+combined,46,Ces capsules futuristes suspendues à un rail et mues par l’énergie solaire sont-elles la solution au...,1,1,True,True,0,,Sentiment: X pattern match,0.8421199321746826
+zero-shot,8,"@user c'est une solution contre le changement climatique et la pollution atmosphérique, dans les pay...",2,1,False,True,0,,Direct digit match,0.7209928035736084
+few-shot,8,"@user c'est une solution contre le changement climatique et la pollution atmosphérique, dans les pay...",2,1,False,True,0,,Direct digit match,1.0442249774932861
+few-shot-real,8,"@user c'est une solution contre le changement climatique et la pollution atmosphérique, dans les pay...",2,2,True,True,0,,Sentiment: X pattern match,0.7877485752105713
+chain-of-thought,8,"@user c'est une solution contre le changement climatique et la pollution atmosphérique, dans les pay...",2,2,True,True,0,,Sentiment: X pattern match,5.39861536026001
+role-based,8,"@user c'est une solution contre le changement climatique et la pollution atmosphérique, dans les pay...",2,1,False,True,0,,Sentiment: X pattern match,0.9644589424133301
+combined,8,"@user c'est une solution contre le changement climatique et la pollution atmosphérique, dans les pay...",2,2,True,True,0,,Sentiment: X pattern match,1.0701634883880615
+zero-shot,132,"@user le pire c jouanneau, l environnementaliste en jolie bourgeoise",0,0,True,True,0,,Direct digit match,1.0618560314178467
+few-shot,132,"@user le pire c jouanneau, l environnementaliste en jolie bourgeoise",0,0,True,True,0,,Sentiment: X pattern match,0.7389426231384277
+few-shot-real,132,"@user le pire c jouanneau, l environnementaliste en jolie bourgeoise",0,0,True,True,0,,Sentiment: X pattern match,1.757587194442749
+chain-of-thought,132,"@user le pire c jouanneau, l environnementaliste en jolie bourgeoise",0,0,True,True,0,,Sentiment: X pattern match,3.6663057804107666
+role-based,132,"@user le pire c jouanneau, l environnementaliste en jolie bourgeoise",0,0,True,True,0,,Sentiment: X pattern match,1.928682804107666
+combined,132,"@user le pire c jouanneau, l environnementaliste en jolie bourgeoise",0,0,True,True,0,,Sentiment: X pattern match,1.1089918613433838
+zero-shot,264,"@user @user : L’énergie éolienne, la grande escroquerie ! #EELV  http http",0,0,True,True,0,,Direct digit match,2.005950927734375
+few-shot,264,"@user @user : L’énergie éolienne, la grande escroquerie ! #EELV  http http",0,0,True,True,0,,Sentiment: X pattern match,0.863628625869751
+few-shot-real,264,"@user @user : L’énergie éolienne, la grande escroquerie ! #EELV  http http",0,0,True,True,0,,Direct digit match,3.4234073162078857
+chain-of-thought,264,"@user @user : L’énergie éolienne, la grande escroquerie ! #EELV  http http",0,0,True,True,0,,Sentiment: X pattern match,3.0554490089416504
+role-based,264,"@user @user : L’énergie éolienne, la grande escroquerie ! #EELV  http http",0,0,True,True,0,,Direct digit match,1.675642967224121
+combined,264,"@user @user : L’énergie éolienne, la grande escroquerie ! #EELV  http http",0,0,True,True,0,,Sentiment: X pattern match,0.8987791538238525
+zero-shot,44,L’UTT accueille le Colloque sur les solutions écologiques territoriales du futur: http,2,1,False,True,0,,Direct digit match,0.676102876663208
+few-shot,44,L’UTT accueille le Colloque sur les solutions écologiques territoriales du futur: http,2,1,False,True,0,,Direct digit match,0.9523868560791016
+few-shot-real,44,L’UTT accueille le Colloque sur les solutions écologiques territoriales du futur: http,2,1,False,True,0,,Sentiment: X pattern match,1.081104040145874
+chain-of-thought,44,L’UTT accueille le Colloque sur les solutions écologiques territoriales du futur: http,2,1,False,True,0,,Sentiment: X pattern match,4.2493767738342285
+role-based,44,L’UTT accueille le Colloque sur les solutions écologiques territoriales du futur: http,2,1,False,True,0,,Direct digit match,0.7744636535644531
+combined,44,L’UTT accueille le Colloque sur les solutions écologiques territoriales du futur: http,2,2,True,True,0,,Sentiment: X pattern match,0.7710270881652832
+zero-shot,224,"Là tout n'est qu'ordre et beauté, luxe calme et volupté ... http",2,2,True,True,0,,Sentiment: X pattern match,0.9943082332611084
+few-shot,224,"Là tout n'est qu'ordre et beauté, luxe calme et volupté ... http",2,1,False,True,0,,Sentiment: X pattern match,2.0950682163238525
+few-shot-real,224,"Là tout n'est qu'ordre et beauté, luxe calme et volupté ... http",2,2,True,True,0,,Sentiment: X pattern match,0.881406307220459
+chain-of-thought,224,"Là tout n'est qu'ordre et beauté, luxe calme et volupté ... http",2,2,True,True,0,,Sentiment: X pattern match,2.6669774055480957
+role-based,224,"Là tout n'est qu'ordre et beauté, luxe calme et volupté ... http",2,2,True,True,0,,Sentiment: X pattern match,0.8478126525878906
+combined,224,"Là tout n'est qu'ordre et beauté, luxe calme et volupté ... http",2,1,False,True,0,,Sentiment: X pattern match,0.8918495178222656
+zero-shot,319,"70 organisations, de défense des consommateurs, environnementalistes, agricoles, et entreprises ont ...",1,1,True,True,0,,Direct digit match,0.6533083915710449
+few-shot,319,"70 organisations, de défense des consommateurs, environnementalistes, agricoles, et entreprises ont ...",1,1,True,True,0,,Direct digit match,0.770763635635376
+few-shot-real,319,"70 organisations, de défense des consommateurs, environnementalistes, agricoles, et entreprises ont ...",1,1,True,True,0,,Sentiment: X pattern match,1.145132303237915
+chain-of-thought,319,"70 organisations, de défense des consommateurs, environnementalistes, agricoles, et entreprises ont ...",1,1,True,True,0,,Sentiment: X pattern match,3.0414018630981445
+role-based,319,"70 organisations, de défense des consommateurs, environnementalistes, agricoles, et entreprises ont ...",1,1,True,True,0,,Direct digit match,1.2413232326507568
+combined,319,"70 organisations, de défense des consommateurs, environnementalistes, agricoles, et entreprises ont ...",1,1,True,True,0,,Direct digit match,0.8029351234436035
+zero-shot,283,"""LP | DKS II | DLC Ivory King | FR [HD] #05 : Réchauffement climatique"" : http via @user",1,1,True,True,0,,Direct digit match,0.6731324195861816
+few-shot,283,"""LP | DKS II | DLC Ivory King | FR [HD] #05 : Réchauffement climatique"" : http via @user",1,1,True,True,0,,Direct digit match,0.9640927314758301
+few-shot-real,283,"""LP | DKS II | DLC Ivory King | FR [HD] #05 : Réchauffement climatique"" : http via @user",1,1,True,True,0,,Direct digit match,0.7960407733917236
+chain-of-thought,283,"""LP | DKS II | DLC Ivory King | FR [HD] #05 : Réchauffement climatique"" : http via @user",1,1,True,True,0,,Sentiment: X pattern match,5.7437989711761475
+role-based,283,"""LP | DKS II | DLC Ivory King | FR [HD] #05 : Réchauffement climatique"" : http via @user",1,1,True,True,0,,Direct digit match,0.7428655624389648
+combined,283,"""LP | DKS II | DLC Ivory King | FR [HD] #05 : Réchauffement climatique"" : http via @user",1,1,True,True,0,,Sentiment: X pattern match,1.6326875686645508
+zero-shot,122,Refinancement de 5 #centralessolaires dans le Sud de la France - http,2,1,False,True,0,,Direct digit match,0.8472561836242676
+few-shot,122,Refinancement de 5 #centralessolaires dans le Sud de la France - http,2,1,False,True,0,,Direct digit match,0.669987678527832
+few-shot-real,122,Refinancement de 5 #centralessolaires dans le Sud de la France - http,2,1,False,True,0,,Direct digit match,1.0643577575683594
+chain-of-thought,122,Refinancement de 5 #centralessolaires dans le Sud de la France - http,2,1,False,True,0,,Sentiment: X pattern match,4.199925184249878
+role-based,122,Refinancement de 5 #centralessolaires dans le Sud de la France - http,2,1,False,True,0,,Direct digit match,1.2425003051757812
+combined,122,Refinancement de 5 #centralessolaires dans le Sud de la France - http,2,1,False,True,0,,Sentiment: X pattern match,0.7902078628540039
+zero-shot,131,@user nous fait une analyse intéressante de l'écosystème des startups de Montréal selon les critères...,2,2,True,True,0,,Sentiment: X pattern match,0.8480789661407471
+few-shot,131,@user nous fait une analyse intéressante de l'écosystème des startups de Montréal selon les critères...,2,1,False,True,0,,Sentiment: X pattern match,1.0067574977874756
+few-shot-real,131,@user nous fait une analyse intéressante de l'écosystème des startups de Montréal selon les critères...,2,2,True,True,0,,Sentiment: X pattern match,0.6795883178710938
+chain-of-thought,131,@user nous fait une analyse intéressante de l'écosystème des startups de Montréal selon les critères...,2,1,False,True,0,,Sentiment: X pattern match,3.469677448272705
+role-based,131,@user nous fait une analyse intéressante de l'écosystème des startups de Montréal selon les critères...,2,1,False,True,0,,Sentiment: X pattern match,1.3166358470916748
+combined,131,@user nous fait une analyse intéressante de l'écosystème des startups de Montréal selon les critères...,2,2,True,True,0,,Sentiment: X pattern match,2.801168441772461
+zero-shot,312,"Royale ministre de l'Ecologie je le rappelle veut faire passer de 24 à 36 les ""prélèvements"" sur les...",0,0,True,True,0,,Sentiment: X pattern match,0.7769637107849121
+few-shot,312,"Royale ministre de l'Ecologie je le rappelle veut faire passer de 24 à 36 les ""prélèvements"" sur les...",0,0,True,True,0,,Sentiment: X pattern match,1.039985179901123
+few-shot-real,312,"Royale ministre de l'Ecologie je le rappelle veut faire passer de 24 à 36 les ""prélèvements"" sur les...",0,0,True,True,0,,Sentiment: X pattern match,0.7789654731750488
+chain-of-thought,312,"Royale ministre de l'Ecologie je le rappelle veut faire passer de 24 à 36 les ""prélèvements"" sur les...",0,0,True,True,0,,Sentiment: X pattern match,3.451550006866455
+role-based,312,"Royale ministre de l'Ecologie je le rappelle veut faire passer de 24 à 36 les ""prélèvements"" sur les...",0,0,True,True,0,,Sentiment: X pattern match,0.7016422748565674
+combined,312,"Royale ministre de l'Ecologie je le rappelle veut faire passer de 24 à 36 les ""prélèvements"" sur les...",0,0,True,True,0,,Sentiment: X pattern match,0.814551591873169
+zero-shot,195,"@user la population est en déclin, l'espèce est menacée. Ne devriez-vous pas laisser les scientifiqu...",0,0,True,True,0,,Direct digit match,3.045867681503296
+few-shot,195,"@user la population est en déclin, l'espèce est menacée. Ne devriez-vous pas laisser les scientifiqu...",0,0,True,True,0,,Direct digit match,1.1977262496948242
+few-shot-real,195,"@user la population est en déclin, l'espèce est menacée. Ne devriez-vous pas laisser les scientifiqu...",0,0,True,True,0,,Sentiment: X pattern match,0.8097133636474609
+chain-of-thought,195,"@user la population est en déclin, l'espèce est menacée. Ne devriez-vous pas laisser les scientifiqu...",0,0,True,True,0,,Sentiment: X pattern match,2.6133463382720947
+role-based,195,"@user la population est en déclin, l'espèce est menacée. Ne devriez-vous pas laisser les scientifiqu...",0,0,True,True,0,,Sentiment: X pattern match,0.8392934799194336
+combined,195,"@user la population est en déclin, l'espèce est menacée. Ne devriez-vous pas laisser les scientifiqu...",0,0,True,True,0,,Sentiment: X pattern match,0.9316723346710205
+zero-shot,202,"Il faut travailler autrement le durable, eco consommation , parc à éoliennes, parcs à énergies solai...",1,1,True,True,0,,Sentiment: X pattern match,0.7306473255157471
+few-shot,202,"Il faut travailler autrement le durable, eco consommation , parc à éoliennes, parcs à énergies solai...",1,1,True,True,0,,Sentiment: X pattern match,0.7008566856384277
+few-shot-real,202,"Il faut travailler autrement le durable, eco consommation , parc à éoliennes, parcs à énergies solai...",1,1,True,True,0,,Sentiment: X pattern match,1.3123784065246582
+chain-of-thought,202,"Il faut travailler autrement le durable, eco consommation , parc à éoliennes, parcs à énergies solai...",1,2,False,True,0,,Sentiment: X pattern match,2.586000680923462
+role-based,202,"Il faut travailler autrement le durable, eco consommation , parc à éoliennes, parcs à énergies solai...",1,1,True,True,0,,Sentiment: X pattern match,0.9670488834381104
+combined,202,"Il faut travailler autrement le durable, eco consommation , parc à éoliennes, parcs à énergies solai...",1,1,True,True,0,,Sentiment: X pattern match,1.0658633708953857
+zero-shot,164,Je suis très heureux d'accompagner @user pour les sénatoriales dans la Sarthe. Plus que jamais le Pa...,2,2,True,True,0,,Sentiment: X pattern match,0.813636302947998
+few-shot,164,Je suis très heureux d'accompagner @user pour les sénatoriales dans la Sarthe. Plus que jamais le Pa...,2,2,True,True,0,,Sentiment: X pattern match,0.7023906707763672
+few-shot-real,164,Je suis très heureux d'accompagner @user pour les sénatoriales dans la Sarthe. Plus que jamais le Pa...,2,2,True,True,0,,Sentiment: X pattern match,0.8455049991607666
+chain-of-thought,164,Je suis très heureux d'accompagner @user pour les sénatoriales dans la Sarthe. Plus que jamais le Pa...,2,2,True,True,0,,Sentiment: X pattern match,2.766791820526123
+role-based,164,Je suis très heureux d'accompagner @user pour les sénatoriales dans la Sarthe. Plus que jamais le Pa...,2,2,True,True,0,,Direct digit match,0.6381256580352783
+combined,164,Je suis très heureux d'accompagner @user pour les sénatoriales dans la Sarthe. Plus que jamais le Pa...,2,2,True,True,0,,Sentiment: X pattern match,0.9982168674468994
+zero-shot,69,"#Actualité #Apple #DRM #écosystème #filière Dix ans après, retour des polémiques sur les DRM http",0,1,False,True,0,,Direct digit match,1.1531784534454346
+few-shot,69,"#Actualité #Apple #DRM #écosystème #filière Dix ans après, retour des polémiques sur les DRM http",0,1,False,True,0,,Sentiment: X pattern match,0.625861644744873
+few-shot-real,69,"#Actualité #Apple #DRM #écosystème #filière Dix ans après, retour des polémiques sur les DRM http",0,1,False,True,0,,Sentiment: X pattern match,0.642580509185791
+chain-of-thought,69,"#Actualité #Apple #DRM #écosystème #filière Dix ans après, retour des polémiques sur les DRM http",0,0,True,True,0,,Sentiment: X pattern match,5.816264390945435
+role-based,69,"#Actualité #Apple #DRM #écosystème #filière Dix ans après, retour des polémiques sur les DRM http",0,1,False,True,0,,Direct digit match,3.379739761352539
+combined,69,"#Actualité #Apple #DRM #écosystème #filière Dix ans après, retour des polémiques sur les DRM http",0,1,False,True,0,,Direct digit match,0.7912135124206543
+zero-shot,197,Le Centre Européen d'Entreprises et d'Innovation Alimentec fête ses dix ans et devient NOVALIM.  htt...,2,2,True,True,0,,Sentiment: X pattern match,1.4452457427978516
+few-shot,197,Le Centre Européen d'Entreprises et d'Innovation Alimentec fête ses dix ans et devient NOVALIM.  htt...,2,1,False,True,0,,Sentiment: X pattern match,1.148118257522583
+few-shot-real,197,Le Centre Européen d'Entreprises et d'Innovation Alimentec fête ses dix ans et devient NOVALIM.  htt...,2,2,True,True,0,,Sentiment: X pattern match,0.9293551445007324
+chain-of-thought,197,Le Centre Européen d'Entreprises et d'Innovation Alimentec fête ses dix ans et devient NOVALIM.  htt...,2,2,True,True,0,,Sentiment: X pattern match,3.2580490112304688
+role-based,197,Le Centre Européen d'Entreprises et d'Innovation Alimentec fête ses dix ans et devient NOVALIM.  htt...,2,2,True,True,0,,Sentiment: X pattern match,1.24611234664917
+combined,197,Le Centre Européen d'Entreprises et d'Innovation Alimentec fête ses dix ans et devient NOVALIM.  htt...,2,2,True,True,0,,Sentiment: X pattern match,1.1776611804962158
+zero-shot,102,#prix des voyages #aériens départ France au même niveau en juin 2014 qu’en juin 2013 &amp; baissent ...,0,1,False,True,0,,Direct digit match,0.9037461280822754
+few-shot,102,#prix des voyages #aériens départ France au même niveau en juin 2014 qu’en juin 2013 &amp; baissent ...,0,1,False,True,0,,Sentiment: X pattern match,0.8804082870483398
+few-shot-real,102,#prix des voyages #aériens départ France au même niveau en juin 2014 qu’en juin 2013 &amp; baissent ...,0,1,False,True,0,,Sentiment: X pattern match,0.9721231460571289
+chain-of-thought,102,#prix des voyages #aériens départ France au même niveau en juin 2014 qu’en juin 2013 &amp; baissent ...,0,1,False,True,0,,Sentiment: X pattern match,6.394376277923584
+role-based,102,#prix des voyages #aériens départ France au même niveau en juin 2014 qu’en juin 2013 &amp; baissent ...,0,1,False,True,0,,Direct digit match,0.6542911529541016
+combined,102,#prix des voyages #aériens départ France au même niveau en juin 2014 qu’en juin 2013 &amp; baissent ...,0,1,False,True,0,,Sentiment: X pattern match,1.2063093185424805
+zero-shot,135,"Les bergers et la centrale électrique, une fable triste #Inde  #shiningGujarat?  http",0,0,True,True,0,,Direct digit match,0.7695431709289551
+few-shot,135,"Les bergers et la centrale électrique, une fable triste #Inde  #shiningGujarat?  http",0,0,True,True,0,,Direct digit match,0.7597720623016357
+few-shot-real,135,"Les bergers et la centrale électrique, une fable triste #Inde  #shiningGujarat?  http",0,0,True,True,0,,Direct digit match,1.079859972000122
+chain-of-thought,135,"Les bergers et la centrale électrique, une fable triste #Inde  #shiningGujarat?  http",0,0,True,True,0,,Sentiment: X pattern match,4.802050352096558
+role-based,135,"Les bergers et la centrale électrique, une fable triste #Inde  #shiningGujarat?  http",0,0,True,True,0,,Direct digit match,0.691856861114502
+combined,135,"Les bergers et la centrale électrique, une fable triste #Inde  #shiningGujarat?  http",0,0,True,True,0,,Direct digit match,0.687122106552124
+zero-shot,144,Le #manchotempereur victime du #réchauffement climatique http #climat,0,0,True,True,0,,Direct digit match,1.0558793544769287
+few-shot,144,Le #manchotempereur victime du #réchauffement climatique http #climat,0,0,True,True,0,,Sentiment: X pattern match,0.9120585918426514
+few-shot-real,144,Le #manchotempereur victime du #réchauffement climatique http #climat,0,0,True,True,0,,Sentiment: X pattern match,0.7585852146148682
+chain-of-thought,144,Le #manchotempereur victime du #réchauffement climatique http #climat,0,0,True,True,0,,Sentiment: X pattern match,5.8707075119018555
+role-based,144,Le #manchotempereur victime du #réchauffement climatique http #climat,0,0,True,True,0,,Sentiment: X pattern match,0.9948294162750244
+combined,144,Le #manchotempereur victime du #réchauffement climatique http #climat,0,0,True,True,0,,Direct digit match,0.9826292991638184
+zero-shot,217,"Élections sénatoriales en Haute-Garonne : #HenriArévalo présente sa liste, nous #écologistes croyons...",1,2,False,True,0,,Sentiment: X pattern match,1.0291266441345215
+few-shot,217,"Élections sénatoriales en Haute-Garonne : #HenriArévalo présente sa liste, nous #écologistes croyons...",1,1,True,True,0,,Sentiment: X pattern match,0.757227897644043
+few-shot-real,217,"Élections sénatoriales en Haute-Garonne : #HenriArévalo présente sa liste, nous #écologistes croyons...",1,2,False,True,0,,Sentiment: X pattern match,0.7575902938842773
+chain-of-thought,217,"Élections sénatoriales en Haute-Garonne : #HenriArévalo présente sa liste, nous #écologistes croyons...",1,2,False,True,0,,Sentiment: X pattern match,5.103374004364014
+role-based,217,"Élections sénatoriales en Haute-Garonne : #HenriArévalo présente sa liste, nous #écologistes croyons...",1,2,False,True,0,,Sentiment: X pattern match,0.8936712741851807
+combined,217,"Élections sénatoriales en Haute-Garonne : #HenriArévalo présente sa liste, nous #écologistes croyons...",1,2,False,True,0,,Sentiment: X pattern match,0.8451852798461914
+zero-shot,158,Ségolène Royal valide le retour du bouquetin - 16/07/2014 - http #Animaux #Biodiversité #Ecologie #E...,2,1,False,True,0,,Sentiment: X pattern match,1.1265268325805664
+few-shot,158,Ségolène Royal valide le retour du bouquetin - 16/07/2014 - http #Animaux #Biodiversité #Ecologie #E...,2,1,False,True,0,,Sentiment: X pattern match,0.8160676956176758
+few-shot-real,158,Ségolène Royal valide le retour du bouquetin - 16/07/2014 - http #Animaux #Biodiversité #Ecologie #E...,2,2,True,True,0,,Sentiment: X pattern match,0.788618803024292
+chain-of-thought,158,Ségolène Royal valide le retour du bouquetin - 16/07/2014 - http #Animaux #Biodiversité #Ecologie #E...,2,2,True,True,0,,Sentiment: X pattern match,4.105940580368042
+role-based,158,Ségolène Royal valide le retour du bouquetin - 16/07/2014 - http #Animaux #Biodiversité #Ecologie #E...,2,1,False,True,0,,Direct digit match,0.8312287330627441
+combined,158,Ségolène Royal valide le retour du bouquetin - 16/07/2014 - http #Animaux #Biodiversité #Ecologie #E...,2,2,True,True,0,,Sentiment: X pattern match,0.8403356075286865
+zero-shot,74,@user @user oui! On va tous dans la même direction pour que le client accède facilement à notre écos...,2,2,True,True,0,,Sentiment: X pattern match,1.2401306629180908
+few-shot,74,@user @user oui! On va tous dans la même direction pour que le client accède facilement à notre écos...,2,2,True,True,0,,Sentiment: X pattern match,1.594296932220459
+few-shot-real,74,@user @user oui! On va tous dans la même direction pour que le client accède facilement à notre écos...,2,2,True,True,0,,Sentiment: X pattern match,0.9223530292510986
+chain-of-thought,74,@user @user oui! On va tous dans la même direction pour que le client accède facilement à notre écos...,2,2,True,True,0,,Sentiment: X pattern match,3.1704626083374023
+role-based,74,@user @user oui! On va tous dans la même direction pour que le client accède facilement à notre écos...,2,2,True,True,0,,Direct digit match,0.5736675262451172
+combined,74,@user @user oui! On va tous dans la même direction pour que le client accède facilement à notre écos...,2,2,True,True,0,,Sentiment: X pattern match,1.010303258895874
+zero-shot,265,Aude - Neuf éoliennes de plus en Lézignanais : http,1,1,True,True,0,,Direct digit match,0.7116761207580566
+few-shot,265,Aude - Neuf éoliennes de plus en Lézignanais : http,1,1,True,True,0,,Direct digit match,1.100332260131836
+few-shot-real,265,Aude - Neuf éoliennes de plus en Lézignanais : http,1,1,True,True,0,,Direct digit match,0.7153530120849609
+chain-of-thought,265,Aude - Neuf éoliennes de plus en Lézignanais : http,1,1,True,True,0,,Sentiment: X pattern match,2.4717750549316406
+role-based,265,Aude - Neuf éoliennes de plus en Lézignanais : http,1,1,True,True,0,,Direct digit match,0.6433789730072021
+combined,265,Aude - Neuf éoliennes de plus en Lézignanais : http,1,1,True,True,0,,Sentiment: X pattern match,0.8331665992736816
+zero-shot,87,Impact du changement climatique sur l’eau http,0,1,False,True,0,,Direct digit match,1.062288761138916
+few-shot,87,Impact du changement climatique sur l’eau http,0,1,False,True,0,,Direct digit match,0.6631948947906494
+few-shot-real,87,Impact du changement climatique sur l’eau http,0,1,False,True,0,,Sentiment: X pattern match,1.090264081954956
+chain-of-thought,87,Impact du changement climatique sur l’eau http,0,0,True,True,0,,Sentiment: X pattern match,3.2000370025634766
+role-based,87,Impact du changement climatique sur l’eau http,0,1,False,True,0,,Direct digit match,1.228306770324707
+combined,87,Impact du changement climatique sur l’eau http,0,1,False,True,0,,Direct digit match,1.7494914531707764
+zero-shot,134,Ségolène #Royal : « L’espoir de vivre mieux dans un pays qui reprend son destin énergétique en main ...,2,2,True,True,0,,Sentiment: X pattern match,3.244746208190918
+few-shot,134,Ségolène #Royal : « L’espoir de vivre mieux dans un pays qui reprend son destin énergétique en main ...,2,1,False,True,0,,Sentiment: X pattern match,0.7324798107147217
+few-shot-real,134,Ségolène #Royal : « L’espoir de vivre mieux dans un pays qui reprend son destin énergétique en main ...,2,2,True,True,0,,Sentiment: X pattern match,1.214693546295166
+chain-of-thought,134,Ségolène #Royal : « L’espoir de vivre mieux dans un pays qui reprend son destin énergétique en main ...,2,2,True,True,0,,Sentiment: X pattern match,3.518965482711792
+role-based,134,Ségolène #Royal : « L’espoir de vivre mieux dans un pays qui reprend son destin énergétique en main ...,2,2,True,True,0,,Direct digit match,1.0606052875518799
+combined,134,Ségolène #Royal : « L’espoir de vivre mieux dans un pays qui reprend son destin énergétique en main ...,2,2,True,True,0,,Sentiment: X pattern match,0.9942615032196045
+zero-shot,318,Comment peut-on sauver le monde du réchauffement planétaire ? — on pourras pas le sauvé http,0,0,True,True,0,,Direct digit match,1.2251222133636475
+few-shot,318,Comment peut-on sauver le monde du réchauffement planétaire ? — on pourras pas le sauvé http,0,0,True,True,0,,Sentiment: X pattern match,0.8203959465026855
+few-shot-real,318,Comment peut-on sauver le monde du réchauffement planétaire ? — on pourras pas le sauvé http,0,0,True,True,0,,Sentiment: X pattern match,1.9122967720031738
+chain-of-thought,318,Comment peut-on sauver le monde du réchauffement planétaire ? — on pourras pas le sauvé http,0,0,True,True,0,,Sentiment: X pattern match,4.431128025054932
+role-based,318,Comment peut-on sauver le monde du réchauffement planétaire ? — on pourras pas le sauvé http,0,0,True,True,0,,Sentiment: X pattern match,0.8308637142181396
+combined,318,Comment peut-on sauver le monde du réchauffement planétaire ? — on pourras pas le sauvé http,0,0,True,True,0,,Sentiment: X pattern match,0.9438104629516602
+zero-shot,172,"la veille de la relation client du mois de septembre, spéciale réseaux sociaux ! | Orange Business S...",1,1,True,True,0,,Direct digit match,0.63490891456604
+few-shot,172,"la veille de la relation client du mois de septembre, spéciale réseaux sociaux ! | Orange Business S...",1,1,True,True,0,,Direct digit match,0.8100240230560303
+few-shot-real,172,"la veille de la relation client du mois de septembre, spéciale réseaux sociaux ! | Orange Business S...",1,1,True,True,0,,Direct digit match,0.659172534942627
+chain-of-thought,172,"la veille de la relation client du mois de septembre, spéciale réseaux sociaux ! | Orange Business S...",1,1,True,True,0,,Sentiment: X pattern match,4.448262929916382
+role-based,172,"la veille de la relation client du mois de septembre, spéciale réseaux sociaux ! | Orange Business S...",1,1,True,True,0,,Direct digit match,0.8651745319366455
+combined,172,"la veille de la relation client du mois de septembre, spéciale réseaux sociaux ! | Orange Business S...",1,1,True,True,0,,Direct digit match,0.740900993347168
+zero-shot,28,"Suite au réchauffement climatique, il fera bientôt aussi froid en hiver à Bordeaux qu'à Montréal, qu...",1,0,False,True,0,,Direct digit match,0.8657059669494629
+few-shot,28,"Suite au réchauffement climatique, il fera bientôt aussi froid en hiver à Bordeaux qu'à Montréal, qu...",1,1,True,True,0,,Sentiment: X pattern match,0.8081133365631104
+few-shot-real,28,"Suite au réchauffement climatique, il fera bientôt aussi froid en hiver à Bordeaux qu'à Montréal, qu...",1,1,True,True,0,,Direct digit match,0.8679094314575195
+chain-of-thought,28,"Suite au réchauffement climatique, il fera bientôt aussi froid en hiver à Bordeaux qu'à Montréal, qu...",1,0,False,True,0,,Sentiment: X pattern match,8.860061645507812
+role-based,28,"Suite au réchauffement climatique, il fera bientôt aussi froid en hiver à Bordeaux qu'à Montréal, qu...",1,0,False,True,0,,Direct digit match,1.7616541385650635
+combined,28,"Suite au réchauffement climatique, il fera bientôt aussi froid en hiver à Bordeaux qu'à Montréal, qu...",1,1,True,True,0,,Sentiment: X pattern match,0.73675537109375
+zero-shot,182,Le solaire : énergie la moins chère pour la moitié de l’humanité  http @user #partenaire,2,2,True,True,0,,Sentiment: X pattern match,1.1621203422546387
+few-shot,182,Le solaire : énergie la moins chère pour la moitié de l’humanité  http @user #partenaire,2,1,False,True,0,,Sentiment: X pattern match,1.0071806907653809
+few-shot-real,182,Le solaire : énergie la moins chère pour la moitié de l’humanité  http @user #partenaire,2,2,True,True,0,,Sentiment: X pattern match,0.9810469150543213
+chain-of-thought,182,Le solaire : énergie la moins chère pour la moitié de l’humanité  http @user #partenaire,2,2,True,True,0,,Sentiment: X pattern match,4.894938707351685
+role-based,182,Le solaire : énergie la moins chère pour la moitié de l’humanité  http @user #partenaire,2,2,True,True,0,,Sentiment: X pattern match,0.9662876129150391
+combined,182,Le solaire : énergie la moins chère pour la moitié de l’humanité  http @user #partenaire,2,2,True,True,0,,Sentiment: X pattern match,0.9853806495666504
+zero-shot,81,"Écotaxe : pour NKM, Ségolène Royal ""assassine"" l'écologie http",0,0,True,True,0,,Sentiment: X pattern match,7.308006763458252
+few-shot,81,"Écotaxe : pour NKM, Ségolène Royal ""assassine"" l'écologie http",0,0,True,True,0,,Sentiment: X pattern match,1.6337099075317383
+few-shot-real,81,"Écotaxe : pour NKM, Ségolène Royal ""assassine"" l'écologie http",0,0,True,True,0,,Direct digit match,1.3733727931976318
+chain-of-thought,81,"Écotaxe : pour NKM, Ségolène Royal ""assassine"" l'écologie http",0,0,True,True,0,,Sentiment: X pattern match,4.36870265007019
+role-based,81,"Écotaxe : pour NKM, Ségolène Royal ""assassine"" l'écologie http",0,0,True,True,0,,Direct digit match,0.9550466537475586
+combined,81,"Écotaxe : pour NKM, Ségolène Royal ""assassine"" l'écologie http",0,0,True,True,0,,Sentiment: X pattern match,0.7567958831787109
+zero-shot,154,France Ecologie Energie » vous informe sur l'actualit é de la semaine  http,1,1,True,True,0,,Direct digit match,0.9933104515075684
+few-shot,154,France Ecologie Energie » vous informe sur l'actualit é de la semaine  http,1,1,True,True,0,,Direct digit match,0.7392568588256836
+few-shot-real,154,France Ecologie Energie » vous informe sur l'actualit é de la semaine  http,1,1,True,True,0,,Direct digit match,0.950258731842041
+chain-of-thought,154,France Ecologie Energie » vous informe sur l'actualit é de la semaine  http,1,1,True,True,0,,Sentiment: X pattern match,2.4798192977905273
+role-based,154,France Ecologie Energie » vous informe sur l'actualit é de la semaine  http,1,1,True,True,0,,Direct digit match,2.0030226707458496
+combined,154,France Ecologie Energie » vous informe sur l'actualit é de la semaine  http,1,1,True,True,0,,Direct digit match,0.9290730953216553

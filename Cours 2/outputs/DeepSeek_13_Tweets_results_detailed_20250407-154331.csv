@@ -1,0 +1,79 @@
+technique,review_id,review_text,true_label,predicted_label,correct,success,retry_count,retry_reasons,extraction_reason,execution_time
+zero-shot,271,Fil #AFP #Energie Correa promet un plan d'expansion du bio-carburant en Equateur: Quito - Le préside...,1,1.0,True,True,0,,Sentiment: X pattern match,4.104452610015869
+few-shot,271,Fil #AFP #Energie Correa promet un plan d'expansion du bio-carburant en Equateur: Quito - Le préside...,1,1.0,True,True,0,,Sentiment: X pattern match,15.811887502670288
+few-shot-real,271,Fil #AFP #Energie Correa promet un plan d'expansion du bio-carburant en Equateur: Quito - Le préside...,1,2.0,False,True,0,,Sentiment: X pattern match,31.12264370918274
+chain-of-thought,271,Fil #AFP #Energie Correa promet un plan d'expansion du bio-carburant en Equateur: Quito - Le préside...,1,1.0,True,True,0,,Sentiment: X pattern match,26.980087757110596
+role-based,271,Fil #AFP #Energie Correa promet un plan d'expansion du bio-carburant en Equateur: Quito - Le préside...,1,1.0,True,True,0,,Sentiment: X pattern match,5.829600095748901
+combined,271,Fil #AFP #Energie Correa promet un plan d'expansion du bio-carburant en Equateur: Quito - Le préside...,1,1.0,True,True,0,,Sentiment: X pattern match,14.572175741195679
+zero-shot,284,"Un ingénieur veut contribuer au développement de l’énergie solaire: Dakar, 3 sept (APS) - L’ingénieu...",2,1.0,False,True,0,,Sentiment: X pattern match,9.410789728164673
+few-shot,284,"Un ingénieur veut contribuer au développement de l’énergie solaire: Dakar, 3 sept (APS) - L’ingénieu...",2,1.0,False,True,0,,Sentiment: X pattern match,4.97449517250061
+few-shot-real,284,"Un ingénieur veut contribuer au développement de l’énergie solaire: Dakar, 3 sept (APS) - L’ingénieu...",2,2.0,True,True,0,,Sentiment: X pattern match,4.3600029945373535
+chain-of-thought,284,"Un ingénieur veut contribuer au développement de l’énergie solaire: Dakar, 3 sept (APS) - L’ingénieu...",2,2.0,True,True,0,,Sentiment: X pattern match,9.613409996032715
+role-based,284,"Un ingénieur veut contribuer au développement de l’énergie solaire: Dakar, 3 sept (APS) - L’ingénieu...",2,1.0,False,True,0,,Sentiment: X pattern match,9.311856508255005
+combined,284,"Un ingénieur veut contribuer au développement de l’énergie solaire: Dakar, 3 sept (APS) - L’ingénieu...",2,2.0,True,True,0,,Sentiment: X pattern match,9.025455236434937
+zero-shot,221,Les clés pour un développement durable: Pour une approche revisitée des thématiques « développement ...,2,1.0,False,True,0,,Sentiment: X pattern match,9.924138069152832
+few-shot,221,Les clés pour un développement durable: Pour une approche revisitée des thématiques « développement ...,2,1.0,False,True,0,,Sentiment: X pattern match,10.095263004302979
+few-shot-real,221,Les clés pour un développement durable: Pour une approche revisitée des thématiques « développement ...,2,1.0,False,True,0,,Sentiment: X pattern match,4.114408731460571
+chain-of-thought,221,Les clés pour un développement durable: Pour une approche revisitée des thématiques « développement ...,2,1.0,False,True,0,,Sentiment: X pattern match,38.64187288284302
+role-based,221,Les clés pour un développement durable: Pour une approche revisitée des thématiques « développement ...,2,1.0,False,True,0,,Sentiment: X pattern match,8.25082540512085
+combined,221,Les clés pour un développement durable: Pour une approche revisitée des thématiques « développement ...,2,2.0,True,True,0,,Sentiment: X pattern match,8.023595809936523
+zero-shot,291,@user 10° à Werchter. 35° à Werchter. Le réchauffement climatique accélère. http  Merci de RT.,0,0.0,True,True,0,,Sentiment: X pattern match,15.857348918914795
+few-shot,291,@user 10° à Werchter. 35° à Werchter. Le réchauffement climatique accélère. http  Merci de RT.,0,0.0,True,True,0,,Sentiment: X pattern match,14.092886209487915
+few-shot-real,291,@user 10° à Werchter. 35° à Werchter. Le réchauffement climatique accélère. http  Merci de RT.,0,0.0,True,True,0,,Sentiment: X pattern match,11.669831037521362
+chain-of-thought,291,@user 10° à Werchter. 35° à Werchter. Le réchauffement climatique accélère. http  Merci de RT.,0,0.0,True,True,0,,Sentiment: X pattern match,11.737627744674683
+role-based,291,@user 10° à Werchter. 35° à Werchter. Le réchauffement climatique accélère. http  Merci de RT.,0,0.0,True,True,0,,Sentiment: X pattern match,5.186815500259399
+combined,291,@user 10° à Werchter. 35° à Werchter. Le réchauffement climatique accélère. http  Merci de RT.,0,0.0,True,True,0,,Sentiment: X pattern match,8.448383331298828
+zero-shot,212,#Algerie Ecologie locale: Le mouvement associatif impliqué: La veille de la rentrée sociale est géné...,2,1.0,False,True,0,,Sentiment: X pattern match,6.855909824371338
+few-shot,212,#Algerie Ecologie locale: Le mouvement associatif impliqué: La veille de la rentrée sociale est géné...,2,1.0,False,True,0,,Sentiment: X pattern match,16.57705521583557
+few-shot-real,212,#Algerie Ecologie locale: Le mouvement associatif impliqué: La veille de la rentrée sociale est géné...,2,1.0,False,True,0,,Sentiment: X pattern match,9.111825942993164
+chain-of-thought,212,#Algerie Ecologie locale: Le mouvement associatif impliqué: La veille de la rentrée sociale est géné...,2,1.0,False,True,0,,Sentiment: X pattern match,13.78839373588562
+role-based,212,#Algerie Ecologie locale: Le mouvement associatif impliqué: La veille de la rentrée sociale est géné...,2,1.0,False,True,0,,Sentiment: X pattern match,8.839315414428711
+combined,212,#Algerie Ecologie locale: Le mouvement associatif impliqué: La veille de la rentrée sociale est géné...,2,1.0,False,True,0,,Sentiment: X pattern match,17.977472066879272
+zero-shot,281,"@user D'autant plus qu'il pleut aujourd'hui et qu'au niveau énergie solaire, ce sera zéro ! Bon café...",2,1.0,False,True,0,,Sentiment: X pattern match,9.353370428085327
+few-shot,281,"@user D'autant plus qu'il pleut aujourd'hui et qu'au niveau énergie solaire, ce sera zéro ! Bon café...",2,1.0,False,True,1,No valid label pattern found,Sentiment: X pattern match,32.246196269989014
+few-shot-real,281,"@user D'autant plus qu'il pleut aujourd'hui et qu'au niveau énergie solaire, ce sera zéro ! Bon café...",2,0.0,False,True,1,No valid label pattern found,Sentiment: X pattern match,33.97400522232056
+chain-of-thought,281,"@user D'autant plus qu'il pleut aujourd'hui et qu'au niveau énergie solaire, ce sera zéro ! Bon café...",2,,,False,2,"No valid label pattern found, No valid label pattern found",No valid label pattern found,67.59502220153809
+role-based,281,"@user D'autant plus qu'il pleut aujourd'hui et qu'au niveau énergie solaire, ce sera zéro ! Bon café...",2,2.0,True,True,0,,Sentiment: X pattern match,9.336963415145874
+combined,281,"@user D'autant plus qu'il pleut aujourd'hui et qu'au niveau énergie solaire, ce sera zéro ! Bon café...",2,0.0,False,True,0,,Sentiment: X pattern match,13.762455224990845
+zero-shot,60,"Patrimoine : Le fromage, espèce menacée via @user http",0,0.0,True,True,0,,Sentiment: X pattern match,5.028083086013794
+few-shot,60,"Patrimoine : Le fromage, espèce menacée via @user http",0,0.0,True,True,0,,Sentiment: X pattern match,4.92195987701416
+few-shot-real,60,"Patrimoine : Le fromage, espèce menacée via @user http",0,0.0,True,True,0,,Sentiment: X pattern match,6.661180257797241
+chain-of-thought,60,"Patrimoine : Le fromage, espèce menacée via @user http",0,0.0,True,True,0,,Sentiment: X pattern match,9.800347805023193
+role-based,60,"Patrimoine : Le fromage, espèce menacée via @user http",0,0.0,True,True,0,,Sentiment: X pattern match,4.668129205703735
+combined,60,"Patrimoine : Le fromage, espèce menacée via @user http",0,0.0,True,True,0,,Sentiment: X pattern match,4.766101360321045
+zero-shot,267,Edwige Chevrion a bien du mal à mener le débat avec son invité écologiste!,0,0.0,True,True,0,,Sentiment: X pattern match,9.092209577560425
+few-shot,267,Edwige Chevrion a bien du mal à mener le débat avec son invité écologiste!,0,0.0,True,True,0,,Sentiment: X pattern match,9.173217535018921
+few-shot-real,267,Edwige Chevrion a bien du mal à mener le débat avec son invité écologiste!,0,0.0,True,True,0,,Sentiment: X pattern match,5.822310924530029
+chain-of-thought,267,Edwige Chevrion a bien du mal à mener le débat avec son invité écologiste!,0,,,False,2,"No valid label pattern found, No valid label pattern found",No valid label pattern found,1.669534683227539
+role-based,267,Edwige Chevrion a bien du mal à mener le débat avec son invité écologiste!,0,,,False,2,"No valid label pattern found, No valid label pattern found",No valid label pattern found,1.8108901977539062
+combined,267,Edwige Chevrion a bien du mal à mener le débat avec son invité écologiste!,0,,,False,2,"No valid label pattern found, No valid label pattern found",No valid label pattern found,1.7260751724243164
+zero-shot,283,"""LP | DKS II | DLC Ivory King | FR [HD] #05 : Réchauffement climatique"" : http via @user",1,,,False,2,"No valid label pattern found, No valid label pattern found",No valid label pattern found,1.6260082721710205
+few-shot,283,"""LP | DKS II | DLC Ivory King | FR [HD] #05 : Réchauffement climatique"" : http via @user",1,,,False,2,"No valid label pattern found, No valid label pattern found",No valid label pattern found,1.5593466758728027
+few-shot-real,283,"""LP | DKS II | DLC Ivory King | FR [HD] #05 : Réchauffement climatique"" : http via @user",1,,,False,2,"No valid label pattern found, No valid label pattern found",No valid label pattern found,1.6316287517547607
+chain-of-thought,283,"""LP | DKS II | DLC Ivory King | FR [HD] #05 : Réchauffement climatique"" : http via @user",1,,,False,2,"No valid label pattern found, No valid label pattern found",No valid label pattern found,1.9742650985717773
+role-based,283,"""LP | DKS II | DLC Ivory King | FR [HD] #05 : Réchauffement climatique"" : http via @user",1,,,False,2,"No valid label pattern found, No valid label pattern found",No valid label pattern found,1.4648935794830322
+combined,283,"""LP | DKS II | DLC Ivory King | FR [HD] #05 : Réchauffement climatique"" : http via @user",1,,,False,2,"No valid label pattern found, No valid label pattern found",No valid label pattern found,1.438882827758789
+zero-shot,306,"Comme quoi, le réchauffement climatique fait dire bien des âneries........ http",0,,,False,2,"No valid label pattern found, No valid label pattern found",No valid label pattern found,1.491612434387207
+few-shot,306,"Comme quoi, le réchauffement climatique fait dire bien des âneries........ http",0,,,False,2,"No valid label pattern found, No valid label pattern found",No valid label pattern found,1.9314146041870117
+few-shot-real,306,"Comme quoi, le réchauffement climatique fait dire bien des âneries........ http",0,,,False,2,"No valid label pattern found, No valid label pattern found",No valid label pattern found,1.7448782920837402
+chain-of-thought,306,"Comme quoi, le réchauffement climatique fait dire bien des âneries........ http",0,,,False,2,"No valid label pattern found, No valid label pattern found",No valid label pattern found,1.5207207202911377
+role-based,306,"Comme quoi, le réchauffement climatique fait dire bien des âneries........ http",0,,,False,2,"No valid label pattern found, No valid label pattern found",No valid label pattern found,1.9131851196289062
+combined,306,"Comme quoi, le réchauffement climatique fait dire bien des âneries........ http",0,,,False,2,"No valid label pattern found, No valid label pattern found",No valid label pattern found,1.5459811687469482
+zero-shot,184,Maghress/Eco&gt; Quatrième Conférence sur le changement climatique et le développement en… http,1,,,False,2,"No valid label pattern found, No valid label pattern found",No valid label pattern found,1.7048661708831787
+few-shot,184,Maghress/Eco&gt; Quatrième Conférence sur le changement climatique et le développement en… http,1,,,False,2,"No valid label pattern found, No valid label pattern found",No valid label pattern found,1.4559564590454102
+few-shot-real,184,Maghress/Eco&gt; Quatrième Conférence sur le changement climatique et le développement en… http,1,,,False,2,"No valid label pattern found, No valid label pattern found",No valid label pattern found,1.5310249328613281
+chain-of-thought,184,Maghress/Eco&gt; Quatrième Conférence sur le changement climatique et le développement en… http,1,,,False,2,"No valid label pattern found, No valid label pattern found",No valid label pattern found,1.6678802967071533
+role-based,184,Maghress/Eco&gt; Quatrième Conférence sur le changement climatique et le développement en… http,1,,,False,2,"No valid label pattern found, No valid label pattern found",No valid label pattern found,1.5351665019989014
+combined,184,Maghress/Eco&gt; Quatrième Conférence sur le changement climatique et le développement en… http,1,,,False,2,"No valid label pattern found, No valid label pattern found",No valid label pattern found,1.4164118766784668
+zero-shot,231,La liste noire des plantes invasives s'allonge | @user via @user http,0,,,False,2,"No valid label pattern found, No valid label pattern found",No valid label pattern found,1.5210320949554443
+few-shot,231,La liste noire des plantes invasives s'allonge | @user via @user http,0,,,False,2,"No valid label pattern found, No valid label pattern found",No valid label pattern found,1.453040599822998
+few-shot-real,231,La liste noire des plantes invasives s'allonge | @user via @user http,0,,,False,2,"No valid label pattern found, No valid label pattern found",No valid label pattern found,1.6095519065856934
+chain-of-thought,231,La liste noire des plantes invasives s'allonge | @user via @user http,0,,,False,2,"No valid label pattern found, No valid label pattern found",No valid label pattern found,1.4130818843841553
+role-based,231,La liste noire des plantes invasives s'allonge | @user via @user http,0,,,False,2,"No valid label pattern found, No valid label pattern found",No valid label pattern found,1.3445892333984375
+combined,231,La liste noire des plantes invasives s'allonge | @user via @user http,0,,,False,2,"No valid label pattern found, No valid label pattern found",No valid label pattern found,1.40101957321167
+zero-shot,247,Évaluation de stratégies d'adaptation de la ville au changement climatique : publication des résulta...,1,,,False,2,"No valid label pattern found, No valid label pattern found",No valid label pattern found,1.7344563007354736
+few-shot,247,Évaluation de stratégies d'adaptation de la ville au changement climatique : publication des résulta...,1,,,False,2,"No valid label pattern found, No valid label pattern found",No valid label pattern found,1.4921772480010986
+few-shot-real,247,Évaluation de stratégies d'adaptation de la ville au changement climatique : publication des résulta...,1,,,False,2,"No valid label pattern found, No valid label pattern found",No valid label pattern found,1.4353172779083252
+chain-of-thought,247,Évaluation de stratégies d'adaptation de la ville au changement climatique : publication des résulta...,1,,,False,2,"No valid label pattern found, No valid label pattern found",No valid label pattern found,1.779407024383545
+role-based,247,Évaluation de stratégies d'adaptation de la ville au changement climatique : publication des résulta...,1,,,False,2,"No valid label pattern found, No valid label pattern found",No valid label pattern found,1.3039486408233643
+combined,247,Évaluation de stratégies d'adaptation de la ville au changement climatique : publication des résulta...,1,,,False,2,"No valid label pattern found, No valid label pattern found",No valid label pattern found,1.7618482112884521

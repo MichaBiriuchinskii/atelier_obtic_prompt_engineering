@@ -1,0 +1,7 @@
+technique,Accuracy,Correct_Predictions,Incorrect_Predictions,Total_Processed,Total_Examples,Success_Rate,Total_Retries,Accuracy_num
+zero-shot,61.0,61,39,100,100,100.0,0,61.0
+few-shot,57.0,57,43,100,100,100.0,0,57.0
+few-shot-real,65.0,65,35,100,100,100.0,0,65.0
+chain-of-thought,69.0,69,31,100,100,100.0,0,69.0
+role-based,60.0,60,40,100,100,100.0,0,60.0
+combined,68.0,68,32,100,100,100.0,0,68.0
