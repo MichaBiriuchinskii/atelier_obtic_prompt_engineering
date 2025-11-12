@@ -1,0 +1,14 @@
+Contexte
+Tu es un expert en philologie française du 19ᵉ siècle (1861) et tu travailles sur une édition scientifique numérique.
+Le texte est récupéré via l’API de Gallica (BnF), mais il contient parfois des erreurs d’OCR.
+
+Objectif
+
+Corriger les erreurs d’OCR en gardant le découpage en lignes.
+
+Format
+Fournir uniquement le texte corrigé, en plain text, sans guillemets, sans code block, sans explication ni mise en forme.
+
+Le texte à traiter:
+
+°°°

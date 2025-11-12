@@ -1,0 +1,129 @@
+{
+  "article": {
+    "format": {
+      "title": "L'assassinat de M. G. Calmette",
+      "subtitle": "par M. Joseph Caillaux",
+      "date": "hier soir",
+      "language": "fr",
+      "category": "Presse / faits divers"
+    },
+    "text_content": "L'assassinat de M. G. Calmette\npar M. Joseph Caillaux\n\nUn drame détonnant s'est déroulé hier soir\nà Paris. La femme du ministre des Finances, a\nassassiné le directeur du Figaro. Introduite en\ntoute confiance dans son bureau, ne s'étant pas\ndonné la peine de dissimuler sa personnalité,\n elle tira sur lui à bout portant six balles de re-\nvolver dont l'une devait entraîner cinq heures\nplus tard la mort de notre malheureux con-\nfrère.\n\nMme Caillaux, irritée de la campagne menée\ncontre son mari par M. Gaston Calmette, crut ainsi\nse « faire justice ». Elle avait consulté dans la\nmatinée M. Monier, président du tribunal civil,\nqui lui avait conseillé de ne pas exagérer l'im-\nportance d'une polémique à laquelle sont expo-\nsés les hommes politiques et fonctionnaires. Mme\nCaillaux, loin de se laisser convaincre, acheta un\nrevolver, partit au Figaro, attendit M. Calmette\npendant une heure et commit son crime.\n\nLa campagne de M. Calmette ne visait que des\nfaits politiques, mais elle avait fait état d'une\nlettre privée qui ne concernait point d'ailleurs\nMme Caillaux.\n\nNéanmoins, Mme Caillaux, dans son premier in-\nterrogatoire, a fait valoir qu'elle avait été entraî-\nchée par la crainte de voir publier également des\nlettres qui lui avaient été adressées à elle-même\npar son mari. La rédaction du Figaro proteste\n« jamais une publication de ce genre n'a même\nété envisagée et les documents dont M. Cal-\nmette entendait faire usage appartenaient uni-\nquement à l'ordre politique et judiciaire ».\n\nOn racontait que ce matin même le Figaro de-\nvait publier le fameux rapport de M. Fabre, pro-\ncureur général, d'où résulterait la preuve de l'in-\ntervention de M. Monis et de M. Caillaux en fa-\nveur de Rochette.\n\nM. Caillaux a donné hier soir sa démission de\nministre des Finances.",
+    "correction_article": [
+      {
+        "Original": "L'assassinat le M. G. Calmette",
+        "Corrigé": "L'assassinat de M. G. Calmette",
+        "Type": "syntaxe"
+      },
+      {
+        "Original": "par r MM Joseph Caillaux",
+        "Corrigé": "par M. Joseph Caillaux",
+        "Type": "OCR / caractères"
+      },
+      {
+        "Original": "draine dôconoôrtant",
+        "Corrigé": "drame détonnant",
+        "Type": "OCR / diacritiques"
+      },
+      {
+        "Original": "ne s'étant pas dônné la peine do dissimuler, sa. personnalité,",
+        "Corrigé": "ne s'étant pas donné la peine de dissimuler sa personnalité,",
+        "Type": "OCR / diacritiques et syntaxe"
+      },
+      {
+        "Original": "ne s'étant pas donné la peine de dissimuler, sa. personnalité,\n elle",
+        "Corrigé": "ne s'étant pas donné la peine de dissimuler sa personnalité,\n elle",
+        "Type": "ponctuation / espaces"
+      },
+      {
+        "Original": "minitre1",
+        "Corrigé": "ministre",
+        "Type": "OCR / bruit numérique"
+      },
+      {
+        "Original": "des financés, a",
+        "Corrigé": "des Finances, a",
+        "Type": "capitalisation / orthographe"
+      },
+      {
+        "Original": "Minutes après six balles de re-",
+        "Corrigé": "elle tira sur lui à bout portant six balles de re-",
+        "Type": "lacune / reconstruction"
+      },
+      {
+        "Original": "matinée M. Monier",
+        "Corrigé": "matinée M. Monier",
+        "Type": "diasthèse / lisibilité"
+      },
+      {
+        "Original": "La femme du .ministre1 des financés, a",
+        "Corrigé": "La femme du ministre des Finances, a",
+        "Type": "OCR / bruit numérique / capitalisation"
+      },
+      {
+        "Original": "d'un revolver",
+        "Corrigé": "un revolver",
+        "Type": "syntaxe / déterminant"
+      },
+      {
+        "Original": "frère. '̃̃•",
+        "Corrigé": "frère.",
+        "Type": "ponctuation / caractères parasites"
+      },
+      {
+        "Original": "irritée de' la campagne, menée;",
+        "Corrigé": "irritée de la campagne menée",
+        "Type": "ponctuation / syntaxe"
+      },
+      {
+        "Original": "qu'elle avait été entraî-\nnée",
+        "Corrigé": "qu'elle avait été entraî-\nchée",
+        "Type": "orthographe"
+      },
+      {
+        "Original": "on racontait que ce malin même le Figaro",
+        "Corrigé": "On racontait que ce matin même le Figaro",
+        "Type": "OCR / diacritiques"
+      },
+      {
+        "Original": "fabre, pro-\ncureur général",
+        "Corrigé": "Fabre, pro-\ncureur général",
+        "Type": "capitalisation / nom propre"
+      },
+      {
+        "Original": "M. Câillaux",
+        "Corrigé": "M. Caillaux",
+        "Type": "diacritiques"
+      },
+      {
+        "Original": "La rédaction du Figaro proteste\n« jamais une publication de ce genre n'a même\nété envisagée et les documents dont M. Cal-\nmette entendait faire usage appartenaient uni-\nquement à l'ordre politique et judiciaire ».",
+        "Corrigé": "La rédaction du Figaro proteste\n« jamais une publication de ce genre n'a même\nété envisagée et les documents dont M. Cal-\nmette entendait faire usage appartenaient uni-\nquement à l'ordre politique et judiciaire ».",
+        "Type": "normalisation guillemets"
+      },
+      {
+        "Original": "ministre des finances.",
+        "Corrigé": "ministre des Finances.",
+        "Type": "capitalisation"
+      }
+    ],
+    "key_elements": {
+      "persons": {
+        "Joseph Caillaux": "Homme politique, ministre des Finances, mari de Henriette Caillaux.",
+        "Henriette Caillaux (Mme Caillaux)": "Épouse de Joseph Caillaux, auteure de l'assassinat de Gaston Calmette.",
+        "Gaston Calmette": "Directeur du Figaro, victime de l'assassinat.",
+        "M. Monier": "Président du tribunal civil, consulté par Mme Caillaux.",
+        "M. Fabre": "Procureur général, auteur d'un rapport mentionné.",
+        "M. Monis": "Homme politique mentionné dans l'article."
+      },
+      "events": {
+        "Assassinat de Gaston Calmette": "Événement survenu « hier soir » à Paris, perpétré par Mme Caillaux contre le directeur du Figaro.",
+        "Demande de conseil juridique": "Mme Caillaux consulte M. Monier qui lui déconseille d'exagérer la portée de la polémique.",
+        "Achat de l'arme": "Mme Caillaux achète un revolver et se rend au Figaro pour attendre M. Calmette.",
+        "Polémique au Figaro": "Campagne de M. Calmette axée sur des faits politiques et l'évocation d'une lettre privée.",
+        "Interrogatoire": "Mme Caillaux évoque la crainte de la publication de lettres privées qui lui étaient adressées par son mari.",
+        "Protestation de la rédaction": "Le Figaro nie avoir envisagé une publication de ce type et précise que les documents étaient d'ordre politique et judiciaire.",
+        "Mention du rapport Fabre": "Article à paraître sur le rapport Fabre, susceptible d'attester l'intervention de M. Monis et de M. Caillaux en faveur de Rochette.",
+        "Démission de M. Caillaux": "Joseph Caillaux donne sa démission de ministre des Finances « hier soir »."
+      }
+    }
+  }
+}

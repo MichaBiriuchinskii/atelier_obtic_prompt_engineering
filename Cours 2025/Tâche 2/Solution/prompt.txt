@@ -1,0 +1,44 @@
+Contexte (C)
+Nous travaillons à la BnF Datalab sur la collection des textes du 20ème siècle. Nous récupérons le texte via l’API de Gallica BnF, mais ce texte contient souvent des erreurs d’OCR.
+
+Objectif (O)
+Corriger le texte en veillant à la cohérence des noms, dates et faits.
+
+Style (S)
+Respecter le style et le ton du document original.
+
+Audience (A)
+Les outils internes qui utiliseront la réponse doivent recevoir un texte corrigé structuré en JSON.
+
+Réponse (R)
+Fournir le texte corrigé au format JSON, en respectant la structure suivante :
+
+
+{
+  "article": {
+    "format": {
+      "title": "Titre principal",
+      "subtitle": "Sous-titre ou auteur",
+      "date": "Date de publication",
+      "language": "Langue",
+      "category": "Catégorie du contenu"
+    },
+    "text_content": "Contenu corrigé du document (avec sauts de ligne)",
+    "correction_article": [
+      {
+        "Original": "Version originale du texte erroné",
+        "Corrigé": "Version corrigée",
+        "Type": "Type d'erreur (ex: orthographe, ponctuation)"
+      }
+    ],
+    "key_elements": {
+      "persons": {
+        "Nom": "Description"
+      },
+      "events": {
+        "Nom": "Description + Date si connue"
+      }
+    }
+  }
+}
+

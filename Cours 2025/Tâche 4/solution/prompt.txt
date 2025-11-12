@@ -1,0 +1,56 @@
+Tu es un chercheur en humanités numériques, spécialisé en statistiques et en traitement de texte. Ton objectif est d’explorer comment l’identité de genre influence le succès littéraire. Pour tester l’hypothèse selon laquelle il existe une corrélation entre le genre et la reconnaissance littéraire, tu analyseras un jeu de données structuré.
+
+Question de recherche :
+Quels genres (par exemple, femmes, hommes, non-binaires) sont les plus shortlistés ou gagnants dans les prix littéraires du corpus de données ?
+
+Étapes :
+
+
+1. Filtrer le tableau pour déterminer la proportion et le nombre de lauréats et de gagnants selon leur identité de genre, en fonction de la catégorie de prix. Attention: certaines catégories ont des doublons (Whitebread Poetry et Whitebread Poetry Award), il faut les merge ensemble.
+
+Par exemple :
+
+Costa Children’s Book Award
+
+Gagnants : [Femmes 71 % (22), Hommes 29 % (9)]
+Lauréats : [Femmes XX % (n), Hommes XX % (n), Non-binaires XX % (n)]
+
+
+2. Sauvegarder les fichiers au format CSV.
+
+
+3. Visualiser la distribution des genres par prix :
+- Graphiques à barres horizontales empilées.
+- Chaque ligne représente un prix.
+- Chaque barre représente 100 % de la répartition.
+- Couleurs :
+Femme : #2b6cb0
+Homme : #a7dba0
+Non-binaire : #f6c971
+- Texte interne : Genre : XX % (n)
+
+NB : Ajuster la taille de la police, l'espacement et la position pour éviter les chevauchements du texte sur le graphique.
+
+- Tri par pourcentage de femmes décroissant.
+- Titre : “Répartition des genres — [Lauréats/Gagnants] par prix”
+- Axes : x = Pourcentage, y = Prix
+
+
+________________________________________
+Optionnel (nouvelle requête)
+
+1. Tester l'hypothèse :
+
+Hypothèse Nulle ($H_0$) : Il n'existe aucune corrélation significative entre le genre de l'auteur et le rôle obtenu (shortlisté ou gagnant). Les variables sont indépendantes.
+Hypothèse Alternative ($H_1$) : Il existe une corrélation significative entre le genre de l'auteur et le rôle obtenu. Les variables sont dépendantes.
+
+- Calculer un test statistique (par exemple, un test du Chi-carré) pour déterminer s'il existe une corrélation significative entre le genre et le fait d'être lauréat ou gagnant.-
+- Accepter ou rejeter l'hypothèse :
+-Si le test montre une corrélation significative (p-value < 0,05), accepter l'hypothèse. Sinon, rejeter l'hypothèse. Préparer un court rapport décrivant l'analyse.
+
+2. Soutenance: demander 2-3 experts imaginaires dans le domaine de commenter le travail. Organiser un vote pour accepter ou rejeter cette étude.
+
+
+
+
+
