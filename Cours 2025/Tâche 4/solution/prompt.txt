@@ -1,3 +1,7 @@
+
+________________________________________
+PROMPT 1
+
 Tu es un chercheur en humanités numériques, spécialisé en statistiques et en traitement de texte. Ton objectif est d’explorer comment l’identité de genre influence le succès littéraire. Pour tester l’hypothèse selon laquelle il existe une corrélation entre le genre et la reconnaissance littéraire, tu analyseras un jeu de données structuré.
 
 Question de recherche :
@@ -5,15 +9,16 @@ Quels genres (par exemple, femmes, hommes, non-binaires) sont les plus shortlist
 
 Étapes :
 
+1. Filtrer le tableau pour déterminer la proportion et le nombre de shortlistés ou gagnants selon leur identité de genre, en fonction de la catégorie de prix. 
+Voici les informations disponibles : 
 
-1. Filtrer le tableau pour déterminer la proportion et le nombre de lauréats et de gagnants selon leur identité de genre, en fonction de la catégorie de prix. Attention: certaines catégories ont des doublons (Whitebread Poetry et Whitebread Poetry Award), il faut les merge ensemble.
+prize_id	prize_alias	prize_name	prize_institution	prize_year	prize_genre	person_id	person_role	last_name	first_name	name	gender	sexuality	uk_residence	ethnicity_macro	ethnicity	highest_degree	degree_institution	degree_field_category	degree_field	viaf	book_id	book_title
 
-Par exemple :
-
-Costa Children’s Book Award
-
-Gagnants : [Femmes 71 % (22), Hommes 29 % (9)]
-Lauréats : [Femmes XX % (n), Hommes XX % (n), Non-binaires XX % (n)]
+Pour chaque 'prize_alias':
+	si prize_genre(winner) et prize_genre(shortlisted)
+		on calcule le nombre de gagnants et le nombre de lauréats par catégorie selon les genres
+	
+	return le format : e.g. : Gold Dagger : ["gagnants": "Femmes 71 % (22), Hommes 29 % (9)", "lauréats": "Femmes 29 % (9), Hommes 71 % (22)"]
 
 
 2. Sauvegarder les fichiers au format CSV.
@@ -32,25 +37,63 @@ Non-binaire : #f6c971
 NB : Ajuster la taille de la police, l'espacement et la position pour éviter les chevauchements du texte sur le graphique.
 
 - Tri par pourcentage de femmes décroissant.
-- Titre : “Répartition des genres — [Lauréats/Gagnants] par prix”
+- Titre : “Répartition des genres — [Gagnants] par prix”
 - Axes : x = Pourcentage, y = Prix
 
 
 ________________________________________
-Optionnel (nouvelle requête)
+PROMPT 2
 
-1. Tester l'hypothèse :
+Tu es un chercheur en humanités numériques, spécialisé en statistiques et en traitement de texte. Ton objectif est d’explorer comment l’identité de genre influence le succès littéraire. Pour tester l’hypothèse selon laquelle il existe une corrélation entre le genre et la reconnaissance littéraire, tu analyseras un jeu de données structuré.
 
-Hypothèse Nulle ($H_0$) : Il n'existe aucune corrélation significative entre le genre de l'auteur et le rôle obtenu (shortlisté ou gagnant). Les variables sont indépendantes.
-Hypothèse Alternative ($H_1$) : Il existe une corrélation significative entre le genre de l'auteur et le rôle obtenu. Les variables sont dépendantes.
+Après avoir filtré les données et t’être assuré que, pour chaque catégorie de prix, tu disposes des informations sur les gagnants et les lauréats, tu t’intéresses à la question de recherche suivante :
 
-- Calculer un test statistique (par exemple, un test du Chi-carré) pour déterminer s'il existe une corrélation significative entre le genre et le fait d'être lauréat ou gagnant.-
-- Accepter ou rejeter l'hypothèse :
--Si le test montre une corrélation significative (p-value < 0,05), accepter l'hypothèse. Sinon, rejeter l'hypothèse. Préparer un court rapport décrivant l'analyse.
+Y a-t-il une corrélation entre le genre et le fait d'être gagnant ?
 
-2. Soutenance: demander 2-3 experts imaginaires dans le domaine de commenter le travail. Organiser un vote pour accepter ou rejeter cette étude.
+Hypothèse nulle (H₀) : le genre et le niveau de reconnaissance sont indépendants.
 
+Hypothèse alternative (H₁) : le genre et le niveau de reconnaissance sont dépendants (il existe une corrélation ou un biais).
 
+Voici les données :
 
+Prix communs (5) :
 
+Baillie Gifford Prize for Non-Fiction
 
+Booker Prize
+
+Gold Dagger
+
+Ted Hughes Award for New Work in Poetry
+
+Women's Prize for Fiction
+
+GAGNANTS (Winners)
+
+Prix	Femmes	Hommes	Non-binaires
+Baillie Gifford Prize for Non-Fiction	8	16	0
+Booker Prize	11	23	0
+Gold Dagger	10	22	0
+Ted Hughes Award for New Work in Poetry	5	3	2
+Women's Prize for Fiction	27	0	0
+TOTAL	61	64	2
+
+SHORTLISTÉS (Shortlisted)
+
+Prix	Femmes	Hommes	Non-binaires
+Baillie Gifford Prize for Non-Fiction	37	79	0
+Booker Prize	63	94	0
+Gold Dagger	30	45	0
+Ted Hughes Award for New Work in Poetry	24	25	1
+Women's Prize for Fiction	135	0	0
+TOTAL	289	243	1
+
+TABLEAU RÉCAPITULATIF
+
+	Femmes	Hommes	Non-binaires
+Winner	61	64	2
+Shortlisted	289	243	1
+
+Tâche :
+Exécute le test du chi carré pour déterminer s'il existe une corrélation entre le genre et le fait d’être gagnant.
+Calcule la valeur de p et décide si l’hypothèse nulle H₀ doit être rejetée ou acceptée.
